@@ -1900,9 +1900,9 @@
 
 .archetypes-grid-section .section-title {
     font-family: 'DM Mono', monospace;
-    color: var(--lyt-purple-deep);
-    margin-bottom: var(--space-2xl);
-    font-size: 1.2rem;
+    color: var(--lyt-cyan);
+    margin-bottom: var(--space-md);
+    font-size: 1.3rem;
     cursor: default;
 }
 
