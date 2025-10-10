@@ -714,7 +714,6 @@
 
         .section-title {
             font-family: 'DM Mono', monospace;
-            text-decoration: underline;
             color: var(--lyt-purple-deep);
             margin-bottom: 1rem;
             font-size: 1.1rem;
