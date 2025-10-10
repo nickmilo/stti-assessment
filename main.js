@@ -1273,9 +1273,6 @@
             // Apply position
             indicator.style.top = topPosition + 'px';
 
-            // Update score label
-            scoreLabel.textContent = Math.round(architectPercent) + '%';
-
             // Update indicator border color based on position (gradient interpolation)
             const color = getGradientColorAtPercent(architectPercent);
             indicator.style.borderColor = color;
