@@ -341,13 +341,7 @@
         }
         
         function setCollapsibleSections(code) {
-            // Show collapsible sections for all profiles
-            const sections = ['overwhelmedSection', 'stuckUnstuckSection', 'promptsSection', 'archetypesSynergySection'];
-            sections.forEach(sectionId => {
-                const section = document.getElementById(sectionId);
-                if (section) section.style.display = 'block';
-            });
-
+            // ProfileRenderer handles visibility - it will show/hide sections based on data availability
             // Use ProfileRenderer for all profile content
             if (window.profileRenderer && window.profileRenderer.isReady && window.profileRenderer.hasProfile(code)) {
                 const success = window.profileRenderer.renderProfile(code);

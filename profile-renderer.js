@@ -194,8 +194,6 @@ class ProfileRenderer {
      * These sections have both title and content
      */
     renderSection(sectionType, sectionData) {
-        if (!sectionData) return;
-
         let sectionId;
         switch (sectionType) {
             case 'overwhelmed':
@@ -213,6 +211,22 @@ class ProfileRenderer {
             default:
                 console.warn(`Unknown section type: ${sectionType}`);
                 return;
+        }
+
+        // Get the section element
+        const sectionElement = this.getElement(`#${sectionId}`);
+
+        // If no data, hide the section
+        if (!sectionData) {
+            if (sectionElement) {
+                sectionElement.style.display = 'none';
+            }
+            return;
+        }
+
+        // Show the section if data exists
+        if (sectionElement) {
+            sectionElement.style.display = 'block';
         }
 
         // Get cached DOM elements
