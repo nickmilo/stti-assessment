@@ -236,6 +236,76 @@
                     </div>
                 </div>
 
+                <!-- Tendency Spectrum Section -->
+                <div class="tendency-spectrum-section section-box section-box--cyan">
+                    <h2 class="spectrum-section-title">Understanding Your Sensemaking Tendencies</h2>
+                    <p class="spectrum-intro">This section articulates the differences between top-down "Architecting" or bottom-up "Gardening". Neither style is better than the other. Both are needed.</p>
+
+                    <div class="spectrum-container">
+                        <!-- Left Side: Vertical Spectrum Bar -->
+                        <div class="spectrum-bar-wrapper">
+                            <div class="spectrum-label spectrum-label-top">Architecting<br><span class="spectrum-sublabel">(Top-down)</span></div>
+                            <div class="spectrum-bar">
+                                <div class="spectrum-indicator" id="spectrumIndicator">
+                                    <span class="spectrum-indicator-score" id="spectrumIndicatorScore">50%</span>
+                                </div>
+                            </div>
+                            <div class="spectrum-label spectrum-label-bottom">Gardening<br><span class="spectrum-sublabel">(Bottom-up)</span></div>
+                        </div>
+
+                        <!-- Right Side: Four Expandable Cards -->
+                        <div class="spectrum-cards-wrapper">
+                            <!-- Healthy Architecting -->
+                            <div class="spectrum-card spectrum-card--architect-healthy">
+                                <div class="spectrum-card-header" onclick="toggleSpectrumCard('healthyArchitecting')">
+                                    <h3 class="spectrum-card-title">Convergent Thinker</h3>
+                                    <span class="spectrum-card-subtitle">Healthy Architecting</span>
+                                    <span class="spectrum-card-arrow" id="arrow-healthyArchitecting">▼</span>
+                                </div>
+                                <div class="spectrum-card-content collapsed" id="content-healthyArchitecting">
+                                    <p>You enjoy seeing the big picture. When possible, you prefer knowing more about a subject or situation before you act. You like categorizing, and you use the big picture to further your sensemaking and decision-making. You are a good organizer and benefit from having a few lists and maps to guide your actions. The question is, can your convergent thinking be loose enough to allow for emergent thinking?</p>
+                                </div>
+                            </div>
+
+                            <!-- Unhealthy Architecting -->
+                            <div class="spectrum-card spectrum-card--architect-unhealthy">
+                                <div class="spectrum-card-header" onclick="toggleSpectrumCard('unhealthyArchitecting')">
+                                    <h3 class="spectrum-card-title">Fragile Thinker</h3>
+                                    <span class="spectrum-card-subtitle">Unhealthy Architecting</span>
+                                    <span class="spectrum-card-arrow" id="arrow-unhealthyArchitecting">▼</span>
+                                </div>
+                                <div class="spectrum-card-content collapsed" id="content-unhealthyArchitecting">
+                                    <p>When taken too far, your tendency to architect can lead to stifling, rigid thinking. When that need sets in, you can become paralyzed when you don't have enough structure. This can manifest in coming across as needy and overburdening others. Sometimes it can even turn brainstorming sessions into prosecutions.</p>
+                                </div>
+                            </div>
+
+                            <!-- Healthy Gardening -->
+                            <div class="spectrum-card spectrum-card--garden-healthy">
+                                <div class="spectrum-card-header" onclick="toggleSpectrumCard('healthyGardening')">
+                                    <h3 class="spectrum-card-title">Divergent Thinker</h3>
+                                    <span class="spectrum-card-subtitle">Healthy Gardening</span>
+                                    <span class="spectrum-card-arrow" id="arrow-healthyGardening">▼</span>
+                                </div>
+                                <div class="spectrum-card-content collapsed" id="content-healthyGardening">
+                                    <p>You are comfortable without having a complete high-level picture. Instead, you are able to work with limited information and follow the trail of enthusiasm, clues, and connections. You generate a lot of thoughts. The question is, can your divergent thinking lead to emergent thinking?</p>
+                                </div>
+                            </div>
+
+                            <!-- Unhealthy Gardening -->
+                            <div class="spectrum-card spectrum-card--garden-unhealthy">
+                                <div class="spectrum-card-header" onclick="toggleSpectrumCard('unhealthyGardening')">
+                                    <h3 class="spectrum-card-title">Scattered Thinker</h3>
+                                    <span class="spectrum-card-subtitle">Unhealthy Gardening</span>
+                                    <span class="spectrum-card-arrow" id="arrow-unhealthyGardening">▼</span>
+                                </div>
+                                <div class="spectrum-card-content collapsed" id="content-unhealthyGardening">
+                                    <p>When taken too far, your tendency to garden can lead to a chronic sense of anxiety around trying to find things—whether it's car keys or old notes. One tendency of unhealthy bottom-up thinking is to chronically collect new and exciting information...never to touch it again.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Archetypes Quadrant Grid Section -->
                 <div class="archetypes-grid-section section-box section-box--purple">
                     <div class="section-title">Understanding the Archetypes</div>

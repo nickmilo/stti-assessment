@@ -399,6 +399,9 @@
                         // Render donut chart with custom A/G scores
                         renderArchitectGardenerDonut(customScores);
 
+                        // Initialize tendency spectrum with custom A/G scores
+                        initTendencySpectrum(customScores);
+
                         // Animate score bars with custom scores
                         animateScoreBars(customScores);
                     } else {
@@ -1215,6 +1218,152 @@
             console.log('✓ DONUT: Simple half-circle donut rendered - A=' + architectPercent.toFixed(1) + '%, G=' + gardenerPercent.toFixed(1) + '%');
         }
 
+        // ============================================
+        // TENDENCY SPECTRUM VISUALIZATION
+        // ============================================
+
+        /**
+         * Initialize the vertical tendency spectrum slider
+         * @param {Object} scores - The profile scores object containing A and G values
+         */
+        function initTendencySpectrum(scores) {
+            // Calculate architect percentage (same calculation as donut chart)
+            const total = scores.A + scores.G;
+            const architectPercent = (scores.A / total) * 100;
+
+            console.log('Initializing tendency spectrum with A=' + architectPercent.toFixed(1) + '%');
+
+            // Update the spectrum indicator position
+            updateSpectrumIndicator(architectPercent);
+
+            // Auto-expand the appropriate section
+            autoExpandTendencySection(architectPercent);
+
+            // Initialize expand/collapse listeners (defensive check)
+            if (!window.tendencySpectrumInitialized) {
+                initSpectrumCardListeners();
+                window.tendencySpectrumInitialized = true;
+            }
+        }
+
+        /**
+         * Update the spectrum indicator position and color based on architect percentage
+         * @param {number} architectPercent - Percentage value 0-100 where 100 is full architect
+         */
+        function updateSpectrumIndicator(architectPercent) {
+            const indicator = document.getElementById('spectrumIndicator');
+            const scoreLabel = document.getElementById('spectrumIndicatorScore');
+
+            if (!indicator || !scoreLabel) {
+                console.error('Spectrum indicator elements not found');
+                return;
+            }
+
+            // Position: 0% architect = bottom (100% of bar height), 100% architect = top (0% of bar height)
+            // We need to invert because CSS top:0 is at the top
+            const positionPercent = 100 - architectPercent;
+
+            // Calculate pixel position accounting for indicator size
+            // Bar height is 500px on desktop, indicator is 50px
+            // Position from top = (positionPercent / 100) * (barHeight - indicatorHeight)
+            const barHeight = 500; // matches CSS
+            const indicatorSize = 50; // matches CSS
+            const topPosition = (positionPercent / 100) * (barHeight - indicatorSize);
+
+            // Apply position
+            indicator.style.top = topPosition + 'px';
+
+            // Update score label
+            scoreLabel.textContent = Math.round(architectPercent) + '%';
+
+            // Update indicator border color based on position (gradient interpolation)
+            const color = getGradientColorAtPercent(architectPercent);
+            indicator.style.borderColor = color;
+
+            console.log('Spectrum indicator positioned at ' + architectPercent.toFixed(1) + '% (top: ' + topPosition + 'px)');
+        }
+
+        /**
+         * Auto-expand the appropriate tendency section based on score
+         * @param {number} architectPercent - Percentage value 0-100
+         */
+        function autoExpandTendencySection(architectPercent) {
+            let cardToExpand = null;
+
+            if (architectPercent > 60) {
+                // Strong architect tendency - expand healthy architecting
+                cardToExpand = 'healthyArchitecting';
+            } else if (architectPercent < 40) {
+                // Strong gardener tendency - expand healthy gardening
+                cardToExpand = 'healthyGardening';
+            }
+            // If 40-60%, leave all collapsed (balanced)
+
+            if (cardToExpand) {
+                // Use requestAnimationFrame to ensure DOM is ready
+                requestAnimationFrame(() => {
+                    const content = document.getElementById('content-' + cardToExpand);
+                    const arrow = document.getElementById('arrow-' + cardToExpand);
+
+                    if (content && arrow) {
+                        content.classList.remove('collapsed');
+                        content.classList.add('expanded');
+                        arrow.classList.add('expanded');
+                        console.log('Auto-expanded tendency card: ' + cardToExpand);
+                    }
+                });
+            }
+        }
+
+        /**
+         * Get interpolated gradient color at a specific percentage
+         * @param {number} percent - Value 0-100 where 0=green (gardener), 100=cyan (architect)
+         * @returns {string} - RGB color string
+         */
+        function getGradientColorAtPercent(percent) {
+            // Gradient colors from CSS: cyan (#5dbcd2) at top to green (#67c073) at bottom
+            const cyan = { r: 93, g: 188, b: 210 };   // Top = 100% architect
+            const green = { r: 103, g: 192, b: 115 }; // Bottom = 0% architect
+
+            // Interpolate
+            const t = percent / 100;
+            const r = Math.round(green.r + (cyan.r - green.r) * t);
+            const g = Math.round(green.g + (cyan.g - green.g) * t);
+            const b = Math.round(green.b + (cyan.b - green.b) * t);
+
+            return 'rgb(' + r + ', ' + g + ', ' + b + ')';
+        }
+
+        /**
+         * Initialize event listeners for spectrum card expand/collapse
+         */
+        function initSpectrumCardListeners() {
+            // This is handled by inline onclick in HTML, but we define the function here
+            window.toggleSpectrumCard = function(cardId) {
+                const content = document.getElementById('content-' + cardId);
+                const arrow = document.getElementById('arrow-' + cardId);
+
+                if (!content || !arrow) {
+                    console.error('Spectrum card elements not found for: ' + cardId);
+                    return;
+                }
+
+                const isCollapsed = content.classList.contains('collapsed');
+
+                if (isCollapsed) {
+                    // Expand
+                    content.classList.remove('collapsed');
+                    content.classList.add('expanded');
+                    arrow.classList.add('expanded');
+                } else {
+                    // Collapse
+                    content.classList.remove('expanded');
+                    content.classList.add('collapsed');
+                    arrow.classList.remove('expanded');
+                }
+            };
+        }
+
         function drawAxisLabels(svg, axes, centerX, centerY, maxRadius, labelOffset = 50) {
             const labelsGroup = createSVGGroup('radar-labels');
             axes.forEach(axis => {
@@ -1500,9 +1649,10 @@
             chordImage.src = `./Assets/Images/Clean_STTI_${profile.code}_Thin.png`;
             chordImage.alt = `${profile.code} Sensemaking Pattern`;
 
-            // Render archetype radar chart, donut chart, and animate score bars
+            // Render archetype radar chart, donut chart, spectrum slider, and animate score bars
             renderRadarChartArchetypesOnly(profile.scores);
             renderArchitectGardenerDonut(profile.scores);
+            initTendencySpectrum(profile.scores);
             animateScoreBars(profile.scores);
 
             hasRenderedResults = true; // Mark results as successfully rendered
