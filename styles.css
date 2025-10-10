@@ -1889,3 +1889,230 @@
     height: auto;
     filter: drop-shadow(0 4px 12px rgba(93, 188, 210, 0.15));
 }
+
+/* ============================================
+   ARCHETYPES QUADRANT GRID SECTION
+   ============================================ */
+
+.archetypes-grid-section {
+    margin-bottom: var(--space-2xl);
+}
+
+.archetypes-grid-section .section-title {
+    font-family: 'DM Mono', monospace;
+    color: var(--lyt-purple-deep);
+    margin-bottom: var(--space-2xl);
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+/* Remove arrow indicator for non-collapsible section */
+.archetypes-grid-section .section-title::after {
+    content: none;
+}
+
+/* 2x2 Grid Layout */
+.archetypes-quadrant-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-lg);
+}
+
+/* Individual Quadrant Cards */
+.archetype-quadrant {
+    background: white;
+    border-radius: var(--radius-md);
+    padding: var(--space-xl);
+    border: 2px solid;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.archetype-quadrant:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Quadrant Header (Icon + Name) */
+.quadrant-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+}
+
+/* Archetype Icon Circle */
+.quadrant-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Canela Deck', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.quadrant-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0;
+}
+
+.quadrant-description {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* Color Coding for Each Archetype */
+
+/* Synthesizer - Cyan (Top Left) */
+.quadrant-synthesizer {
+    border-color: var(--lyt-cyan);
+    background: linear-gradient(135deg, rgba(93, 188, 210, 0.03) 0%, white 100%);
+}
+
+.quadrant-synthesizer:hover {
+    border-color: var(--lyt-cyan);
+    background: linear-gradient(135deg, rgba(93, 188, 210, 0.08) 0%, white 100%);
+}
+
+.synthesizer-icon {
+    background: linear-gradient(135deg, #4a9fb0 0%, var(--lyt-cyan) 100%);
+}
+
+/* Producer - Pink (Top Right) */
+.quadrant-producer {
+    border-color: var(--lyt-pink);
+    background: linear-gradient(135deg, rgba(214, 105, 188, 0.03) 0%, white 100%);
+}
+
+.quadrant-producer:hover {
+    border-color: var(--lyt-pink);
+    background: linear-gradient(135deg, rgba(214, 105, 188, 0.08) 0%, white 100%);
+}
+
+.producer-icon {
+    background: linear-gradient(135deg, #c055a3 0%, var(--lyt-pink) 100%);
+}
+
+/* Inner Guide - Yellow (Bottom Left) */
+.quadrant-inner-guide {
+    border-color: var(--lyt-yellow-muted);
+    background: linear-gradient(135deg, rgba(252, 246, 1, 0.05) 0%, white 100%);
+}
+
+.quadrant-inner-guide:hover {
+    border-color: var(--lyt-yellow-muted);
+    background: linear-gradient(135deg, rgba(252, 246, 1, 0.12) 0%, white 100%);
+}
+
+.inner-guide-icon {
+    background: linear-gradient(135deg, var(--lyt-yellow-muted) 0%, var(--lyt-yellow) 100%);
+}
+
+/* Creative - Purple (Bottom Right) */
+.quadrant-creative {
+    border-color: var(--lyt-purple);
+    background: linear-gradient(135deg, rgba(185, 173, 255, 0.03) 0%, white 100%);
+}
+
+.quadrant-creative:hover {
+    border-color: var(--lyt-purple);
+    background: linear-gradient(135deg, rgba(185, 173, 255, 0.08) 0%, white 100%);
+}
+
+.creative-icon {
+    background: linear-gradient(135deg, var(--lyt-purple-deep) 0%, var(--lyt-purple) 100%);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablet: Stack 2x2 into 1x4 vertical layout */
+@media (max-width: 768px) {
+    .archetypes-quadrant-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: var(--space-lg);
+    }
+
+    .archetype-quadrant {
+        padding: var(--space-lg);
+    }
+
+    .quadrant-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+
+    .quadrant-name {
+        font-size: 1.2rem;
+    }
+
+    .quadrant-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile: Compact card styling */
+@media (max-width: 480px) {
+    .archetypes-grid-section {
+        margin-bottom: var(--space-xl);
+    }
+
+    .archetypes-grid-section .section-title {
+        font-size: 1.1rem;
+        margin-bottom: var(--space-xl);
+    }
+
+    .archetypes-quadrant-grid {
+        gap: var(--space-md);
+    }
+
+    .archetype-quadrant {
+        padding: var(--space-lg);
+    }
+
+    .quadrant-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 1.2rem;
+    }
+
+    .quadrant-name {
+        font-size: 1.1rem;
+    }
+
+    .quadrant-description {
+        font-size: 0.9rem;
+        line-height: 1.55;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .archetype-quadrant {
+        transition: none;
+    }
+
+    .archetype-quadrant:hover {
+        transform: none;
+    }
+}
