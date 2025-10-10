@@ -424,9 +424,6 @@
                     // Set collapsible sections content for all profiles
                     setCollapsibleSections(code);
 
-                    // Hide sections for broken profiles
-                    hideBrokenProfileSections(code);
-
                     // Load full content based on profile
 
                     console.log(`${code} activated successfully${customScores ? ' with custom scores' : ''}`);
@@ -1503,7 +1500,6 @@
             setTendencyPills(profile.code);
             setArchetypeDescription(profile.code);
             setCollapsibleSections(profile.code);
-            hideBrokenProfileSections(profile.code);
 
             // Update chord diagram
             const chordImage = document.getElementById('chordDiagram');
@@ -1654,21 +1650,6 @@
                 document.getElementById('imageModal').classList.remove('active');
             }
         });
-
-        // Hide collapsible sections for broken profiles
-        function hideBrokenProfileSections(profileCode) {
-            const brokenProfiles = ['IC-Architect', 'IC-Gardener', 'PI-Architect', 'PI-Gardener', 'PC-Architect', 'SI-Architect', 'SI-Gardener', 'SP-Architect', 'SP-Gardener', 'SC-Architect', 'SC-Gardener'];
-
-            if (brokenProfiles.includes(profileCode)) {
-                const sectionsToHide = ['overwhelmedSection', 'stuckUnstuckSection', 'promptsSection', 'archetypesSynergySection'];
-                sectionsToHide.forEach(sectionId => {
-                    const section = document.getElementById(sectionId);
-                    if (section) {
-                        section.style.display = 'none';
-                    }
-                });
-            }
-        }
 
         // Demographic question functions
         function loadDemographicQuestion(demoIndex) {
