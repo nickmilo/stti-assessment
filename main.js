@@ -145,6 +145,7 @@
         let userEmail = '';
         let hasSubmittedToFormspree = false; // Prevent duplicate API submissions
         let hasRenderedResults = false; // Track rendering state separately
+        let currentProfile = null; // Store current profile for share functions
         const TOTAL_QUESTIONS = 58; // 53 STTI + 5 demographic (intro screen is NOT counted as a question)
         
         
@@ -1741,6 +1742,9 @@
             const scores = calculateScores();
             const profile = determineProfile(scores);
 
+            // Store profile globally for share functions
+            currentProfile = profile;
+
             // Submit to Formspree (only once)
             if (!hasSubmittedToFormspree) {
                 submitToFormspree(profile);
@@ -1795,6 +1799,12 @@
             animateScoreBars(profile.scores);
 
             hasRenderedResults = true; // Mark results as successfully rendered
+
+            // Auto-update browser URL with score parameters
+            const shareableURL = generateShareableURL(profile.scores);
+            const newURL = shareableURL.replace(window.location.origin + window.location.pathname, '');
+            history.replaceState({scores: profile.scores}, '', window.location.pathname + newURL);
+
             showScreen('resultsScreen');
         }
 
@@ -1820,32 +1830,78 @@
         function toggleShareDropdown(button) {
             const dropdown = button.nextElementSibling;
             const isVisible = dropdown.classList.contains('show');
-            
+
             // Close all other dropdowns first
             document.querySelectorAll('.share-dropdown.show').forEach(d => {
                 d.classList.remove('show');
             });
-            
+
             // Toggle current dropdown
             if (!isVisible) {
                 dropdown.classList.add('show');
             }
         }
 
+        /**
+         * Get current scores with multi-layer fallback strategy
+         * @returns {Object|null} - Returns scores object {I, S, P, C, A, G} or null if unavailable
+         */
+        function getCurrentScores() {
+            // Layer 1: Try global profile (most reliable)
+            if (currentProfile && currentProfile.scores) {
+                return currentProfile.scores;
+            }
+
+            // Layer 2: Try URL parameters
+            const urlData = parseURLScores();
+            if (urlData && urlData.type === 'scores') {
+                return urlData.scores;
+            }
+
+            // Layer 3: Try recalculating from answers
+            if (Object.keys(answers).length > 0) {
+                try {
+                    return calculateScores();
+                } catch (error) {
+                    console.error('Failed to calculate scores:', error);
+                }
+            }
+
+            // No scores available
+            return null;
+        }
+
         function shareToTwitter() {
+            // Get scores using multi-layer fallback
+            const scores = getCurrentScores();
+            if (!scores) {
+                alert('Unable to generate shareable link. Please complete the assessment first.');
+                closeAllDropdowns();
+                return;
+            }
+
             const profileCode = document.getElementById('profileCode').textContent;
             const subtitle = document.getElementById('profileSubtitle').textContent;
-            const url = encodeURIComponent(window.location.href);
+            const shareableURL = generateShareableURL(scores);
+            const url = encodeURIComponent(shareableURL);
             const text = encodeURIComponent(`I just discovered I'm an ${profileCode} - ${subtitle}! Find out your sensemaking type:`);
-            
+
             window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
             closeAllDropdowns();
         }
 
 
         function copyResultsLink() {
-            const url = window.location.href;
-            
+            // Get scores using multi-layer fallback
+            const scores = getCurrentScores();
+            if (!scores) {
+                alert('Unable to generate shareable link. Please complete the assessment first.');
+                closeAllDropdowns();
+                return;
+            }
+
+            const url = generateShareableURL(scores);
+
             if (navigator.clipboard) {
                 navigator.clipboard.writeText(url)
                     .then(() => {
@@ -1874,12 +1930,20 @@
         }
 
         function shareViaEmail() {
+            // Get scores using multi-layer fallback
+            const scores = getCurrentScores();
+            if (!scores) {
+                alert('Unable to generate shareable link. Please complete the assessment first.');
+                closeAllDropdowns();
+                return;
+            }
+
             const profileCode = document.getElementById('profileCode').textContent;
             const subtitle = document.getElementById('profileSubtitle').textContent;
-            const url = window.location.href;
+            const url = generateShareableURL(scores);
             const subject = encodeURIComponent(`Check out my STTI Assessment results!`);
             const body = encodeURIComponent(`I just discovered I'm an ${profileCode} - ${subtitle}! Find out your sensemaking type at: ${url}`);
-            
+
             window.open(`mailto:?subject=${subject}&body=${body}`, '_blank');
             closeAllDropdowns();
         }
