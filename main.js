@@ -1827,20 +1827,6 @@
             }
         }
 
-        function toggleShareDropdown(button) {
-            const dropdown = button.nextElementSibling;
-            const isVisible = dropdown.classList.contains('show');
-
-            // Close all other dropdowns first
-            document.querySelectorAll('.share-dropdown.show').forEach(d => {
-                d.classList.remove('show');
-            });
-
-            // Toggle current dropdown
-            if (!isVisible) {
-                dropdown.classList.add('show');
-            }
-        }
 
         /**
          * Get current scores with multi-layer fallback strategy
@@ -1871,24 +1857,6 @@
             return null;
         }
 
-        function shareToTwitter() {
-            // Get scores using multi-layer fallback
-            const scores = getCurrentScores();
-            if (!scores) {
-                alert('Unable to generate shareable link. Please complete the assessment first.');
-                closeAllDropdowns();
-                return;
-            }
-
-            const profileCode = document.getElementById('profileCode').textContent;
-            const subtitle = document.getElementById('profileSubtitle').textContent;
-            const shareableURL = generateShareableURL(scores);
-            const url = encodeURIComponent(shareableURL);
-            const text = encodeURIComponent(`I just discovered I'm an ${profileCode} - ${subtitle}! Find out your sensemaking type:`);
-
-            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
-            closeAllDropdowns();
-        }
 
 
         function copyResultsLink() {
@@ -1896,7 +1864,6 @@
             const scores = getCurrentScores();
             if (!scores) {
                 alert('Unable to generate shareable link. Please complete the assessment first.');
-                closeAllDropdowns();
                 return;
             }
 
@@ -1906,11 +1873,9 @@
                 navigator.clipboard.writeText(url)
                     .then(() => {
                         alert('Link copied to clipboard!');
-                        closeAllDropdowns();
                     })
                     .catch(() => {
                         alert('Unable to copy to clipboard');
-                        closeAllDropdowns();
                     });
             } else {
                 // Fallback for older browsers
@@ -1925,41 +1890,9 @@
                     alert('Unable to copy to clipboard');
                 }
                 document.body.removeChild(textArea);
-                closeAllDropdowns();
             }
         }
 
-        function shareViaEmail() {
-            // Get scores using multi-layer fallback
-            const scores = getCurrentScores();
-            if (!scores) {
-                alert('Unable to generate shareable link. Please complete the assessment first.');
-                closeAllDropdowns();
-                return;
-            }
-
-            const profileCode = document.getElementById('profileCode').textContent;
-            const subtitle = document.getElementById('profileSubtitle').textContent;
-            const url = generateShareableURL(scores);
-            const subject = encodeURIComponent(`Check out my STTI Assessment results!`);
-            const body = encodeURIComponent(`I just discovered I'm an ${profileCode} - ${subtitle}! Find out your sensemaking type at: ${url}`);
-
-            window.open(`mailto:?subject=${subject}&body=${body}`, '_blank');
-            closeAllDropdowns();
-        }
-
-        function closeAllDropdowns() {
-            document.querySelectorAll('.share-dropdown.show').forEach(dropdown => {
-                dropdown.classList.remove('show');
-            });
-        }
-
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(event) {
-            if (!event.target.closest('.share-dropdown-container')) {
-                closeAllDropdowns();
-            }
-        });
 
         function toggleSection(contentId, titleElement) {
             const content = document.getElementById(contentId);
