@@ -288,7 +288,104 @@
                 activateProfile('IS-Architect', 'The Philosopher');
             }
         });
-        
+
+        /**
+         * Generate shareable URL with score parameters
+         * @param {Object} scores - Score object with I, S, P, C, A, G properties
+         * @returns {string} - Full URL with all 6 score parameters
+         */
+        function generateShareableURL(scores) {
+            const baseURL = window.location.origin + window.location.pathname;
+            const params = new URLSearchParams();
+
+            // Add all 6 scores as URL parameters
+            params.set('I', scores.I);
+            params.set('S', scores.S);
+            params.set('P', scores.P);
+            params.set('C', scores.C);
+            params.set('A', scores.A);
+            params.set('G', scores.G);
+
+            return `${baseURL}?${params.toString()}`;
+        }
+
+        /**
+         * Parse URL parameters for scores or secret codes
+         * @returns {Object|null} - Returns {type: 'secretCode', code: '0025'} or {type: 'scores', scores: {...}} or null
+         */
+        function parseURLScores() {
+            const params = new URLSearchParams(window.location.search);
+
+            // Check for secret code first (takes precedence)
+            const secretCode = params.get('code');
+            if (secretCode) {
+                return { type: 'secretCode', code: secretCode };
+            }
+
+            // Check for score parameters
+            const I = params.get('I');
+            const S = params.get('S');
+            const P = params.get('P');
+            const C = params.get('C');
+            const A = params.get('A');
+            const G = params.get('G');
+
+            // Validate all 6 scores are present
+            if (!I || !S || !P || !C || !A || !G) {
+                return null;
+            }
+
+            // Parse and validate each score
+            const scores = {
+                I: parseInt(I, 10),
+                S: parseInt(S, 10),
+                P: parseInt(P, 10),
+                C: parseInt(C, 10),
+                A: parseInt(A, 10),
+                G: parseInt(G, 10)
+            };
+
+            // Validate all scores are in 8-32 range
+            const allScoresValid = Object.values(scores).every(score =>
+                !isNaN(score) && score >= 8 && score <= 32
+            );
+
+            if (!allScoresValid) {
+                console.error('Invalid scores in URL - must be 8-32 range', scores);
+                return null;
+            }
+
+            return { type: 'scores', scores };
+        }
+
+        /**
+         * Get profile subtitle from archetype combination
+         * @param {string} code - Profile code (e.g., "IP-Architect", "IS-Gardener")
+         * @returns {string} - Profile subtitle (e.g., "The Converter", "The Philosopher")
+         */
+        function getProfileSubtitle(code) {
+            // Extract archetype combination (first 2 letters before the hyphen)
+            const archetypes = code.split('-')[0];
+
+            // Map archetype combinations to subtitles
+            const subtitleMap = {
+                'IP': 'The Converter',
+                'PI': 'The Converter',
+                'IS': 'The Philosopher',
+                'SI': 'The Philosopher',
+                'IC': 'The Explorer',
+                'CI': 'The Explorer',
+                'PS': 'The Builder',
+                'SP': 'The Builder',
+                'PC': 'The Maker',
+                'CP': 'The Maker',
+                'SC': 'The Translator',
+                'CS': 'The Translator'
+            };
+
+            return subtitleMap[archetypes] || 'Unknown Profile';
+        }
+
         function setTendencyPills(code) {
             const [archetypes, tendency] = code.split('-');
 
@@ -534,12 +631,57 @@
 
 
 
-        // Check for email in URL params or localStorage (but exclude demo/test values)
+        // Check for URL parameters (scores or secret codes) or email on page load
         (function() {
+            const urlData = parseURLScores();
+
+            if (urlData) {
+                if (urlData.type === 'scores') {
+                    // URL contains scores - reconstruct results and skip to results screen
+                    console.log('URL scores detected:', urlData.scores);
+
+                    // Wait for ProfileRenderer to be ready before showing results
+                    const initFromURL = async () => {
+                        try {
+                            if (!window.profileRenderer) {
+                                throw new Error('ProfileRenderer not initialized');
+                            }
+
+                            await window.profileRenderer.waitForProfiles();
+
+                            // Calculate profile from URL scores
+                            const profile = determineProfile(urlData.scores);
+
+                            // Mark as already submitted to prevent Formspree submission
+                            hasSubmittedToFormspree = true;
+
+                            // Activate the profile directly
+                            activateProfile(
+                                profile.code,
+                                getProfileSubtitle(profile.code),
+                                urlData.scores
+                            );
+
+                            console.log('Profile reconstructed from URL:', profile.code);
+                        } catch (error) {
+                            console.error('Failed to load profile from URL:', error);
+                            alert('Error loading profile. Please try again.');
+                        }
+                    };
+
+                    initFromURL();
+                    return; // Skip email initialization
+                } else if (urlData.type === 'secretCode') {
+                    // Handle secret code if needed (existing keyboard handler will take care of it)
+                    console.log('Secret code detected in URL:', urlData.code);
+                }
+            }
+
+            // Standard email initialization (only if no scores in URL)
             const urlParams = new URLSearchParams(window.location.search);
             const emailFromURL = urlParams.get('email');
             const emailFromStorage = localStorage.getItem('userEmail');
-            
+
             const prefilledEmail = emailFromURL || emailFromStorage || '';
             // Don't prefill with demo/test values
             if (prefilledEmail && !prefilledEmail.toLowerCase().includes('demo') && !prefilledEmail.toLowerCase().includes('test')) {
