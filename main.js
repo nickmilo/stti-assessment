@@ -1187,7 +1187,7 @@
          * @param {string} fillColor - Fill color for segment
          * @returns {SVGElement} Path element for donut segment
          */
-        function createDonutSegment(cx, cy, outerRadius, innerRadius, startAngle, endAngle, fillColor) {
+        function createDonutSegment(cx, cy, outerRadius, innerRadius, startAngle, endAngle, fillColor, strokeColor = '#666666', strokeWidth = 2.5) {
             // Normalize angles to 0-360 range
             const normalizeAngle = (angle) => ((angle % 360) + 360) % 360;
             const start = normalizeAngle(startAngle);
@@ -1227,7 +1227,9 @@
 
             return createSVGElement('path', {
                 d: pathData,
-                fill: fillColor
+                fill: fillColor,
+                stroke: strokeColor,
+                'stroke-width': strokeWidth
             });
         }
 
@@ -1310,7 +1312,9 @@
                 centerX, centerY,
                 outerRadius, innerRadius,
                 startAngle, architectArcEnd,  // NORMAL: start → end (clockwise)
-                'url(#architectGradient)'
+                'url(#architectGradient)',
+                '#666666',
+                2.5
             );
             svg.appendChild(architectPath);
 
@@ -1320,7 +1324,9 @@
                 centerX, centerY,
                 outerRadius, innerRadius,
                 gardenerArcEnd, startAngle,  // REVERSED: end → start (counterclockwise)
-                'url(#gardenerGradient)'
+                'url(#gardenerGradient)',
+                '#666666',
+                2.5
             );
             svg.appendChild(gardenerPath);
 
