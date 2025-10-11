@@ -1903,6 +1903,7 @@
     color: var(--lyt-cyan);
     margin-bottom: var(--space-md);
     font-size: 1.3rem;
+    font-weight: 600;
     cursor: default;
 }
 
