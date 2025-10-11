@@ -1797,7 +1797,7 @@
 /* Axis labels */
 .radar-labels text {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     fill: var(--color-text-primary);
     text-anchor: middle;
