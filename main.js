@@ -1335,7 +1335,9 @@
                 cx: centerX,
                 cy: centerY,
                 r: innerRadius,
-                fill: 'white'
+                fill: 'white',
+                stroke: '#444444',
+                'stroke-width': '2.5'
             });
             svg.appendChild(centerHole);
 
