@@ -10,11 +10,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Converters feel overwhelmed…",
       "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IP-Architect",
       "content": "When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from meaning to action is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
     },
     "prompts": {
@@ -33,11 +33,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Converters feel overwhelmed…",
       "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IP-Gardener",
       "content": "When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with action is by tapping into your Creative archetype, which aligns with your flexible approach to expression."
     },
     "prompts": {
@@ -56,11 +56,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Western profiles feel overwhelmed…",
       "content": "They usually double-down on their strengths to analyze, when what they likely need more is to move from reflection to expression."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IS-Architect",
       "content": "When you combine your Western archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from reflection to expression is by tapping into your Producer archetype, which aligns with your structured approach."
     },
     "prompts": {
@@ -83,11 +83,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Western profiles feel overwhelmed…",
       "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IS-Gardener",
       "content": "When you combine your Western archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from reflection to expression is by tapping into your Creative archetype, which aligns with your flexible, emergent approach."
     },
     "prompts": {
@@ -110,11 +110,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Southern feel overwhelmed…",
       "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IC-Architect",
       "content": "When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to ground exploration with structure is by tapping into your Creative archetype, which aligns with your systematic approach to innovation."
     },
     "prompts": {
@@ -133,11 +133,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
+      "title": "When Southern feel overwhelmed…",
       "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
+      "title": "Getting stuck and unstuck as an IC-Gardener",
       "content": "When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
@@ -156,11 +156,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Converters feel overwhelmed…",
       "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PI-Architect",
       "content": "When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance meaning with execution is by tapping into your Producer archetype, which aligns with your structured approach to systematic action."
     },
     "prompts": {
@@ -179,11 +179,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Converters feel overwhelmed…",
       "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PI-Gardener",
       "content": "When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with execution is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
@@ -202,11 +202,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Northern profiles feel overwhelmed…",
       "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PS-Architect",
       "content": "When you combine your Northern archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from structure to innovation is by tapping into your Inner Guide archetype, which aligns with your systematic approach to meaning-making."
     },
     "prompts": {
@@ -225,11 +225,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Northern profiles feel overwhelmed…",
       "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PS-Gardener",
       "content": "When you combine your Northern archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from systematic work to meaningful action is by tapping into your Creative archetype, which aligns with your flexible approach to innovation."
     },
     "prompts": {
@@ -248,11 +248,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Eastern profiles feel overwhelmed…",
       "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PC-Architect",
       "content": "When you combine your Eastern archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making."
     },
     "prompts": {
@@ -271,11 +271,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Producer",
+      "title": "When Eastern profiles feel overwhelmed…",
       "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
+      "title": "Getting stuck and unstuck as a PC-Gardener",
       "content": "When you combine your Eastern archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense."
     },
     "prompts": {
@@ -294,11 +294,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Western profiles feel overwhelmed…",
       "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as an SI-Architect",
       "content": "When you combine your Western archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from understanding to expression is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
     },
     "prompts": {
@@ -317,11 +317,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Western profiles feel overwhelmed…",
       "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as an SI-Gardener",
       "content": "When you combine your Western archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from understanding to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
@@ -340,11 +340,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Northern profiles feel overwhelmed…",
       "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as a SP-Architect",
       "content": "When you combine your Northern archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance building with meaning is by tapping into your Creative archetype, which aligns with your structured approach to innovation."
     },
     "prompts": {
@@ -363,11 +363,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Northern profiles feel overwhelmed…",
       "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as a SP-Gardener",
       "content": "When you combine your Northern archetypes with a Gardener tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance building with meaning is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
@@ -386,11 +386,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Translators feel overwhelmed…",
       "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as a SC-Architect",
       "content": "When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making."
     },
     "prompts": {
@@ -409,11 +409,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
+      "title": "When Translators feel overwhelmed…",
       "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
+      "title": "Getting stuck and unstuck as a SC-Gardener",
       "content": "When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to meaning is by tapping into your Producer archetype, which aligns with your flexible approach to systematic action."
     },
     "prompts": {
@@ -432,11 +432,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Southern feel overwhelmed…",
       "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CI-Architect",
       "content": "When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from exploration to structure is by tapping into your Producer archetype, which aligns with your systematic approach to building."
     },
     "prompts": {
@@ -455,11 +455,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Southern feel overwhelmed…",
       "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CI-Gardener",
       "content": "When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense."
     },
     "prompts": {
@@ -478,11 +478,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Eastern profiles feel overwhelmed…",
       "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CP-Architect",
       "content": "When you combine your Eastern archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
     },
     "prompts": {
@@ -501,11 +501,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Eastern profiles feel overwhelmed…",
       "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CP-Gardener",
       "content": "When you combine your Eastern archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
@@ -524,11 +524,11 @@
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Translators feel overwhelmed…",
       "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CS-Architect",
       "content": "When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to depth is by tapping into your Producer archetype, which aligns with your structured approach to systematic action."
     },
     "prompts": {
@@ -547,11 +547,11 @@
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
     "overwhelmed": {
-      "title": "Your key challenge as a Creative",
+      "title": "When Translators feel overwhelmed…",
       "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
     },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
+      "title": "Getting stuck and unstuck as a CS-Gardener",
       "content": "When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
     },
     "prompts": {
