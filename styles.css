@@ -1780,7 +1780,7 @@
 /* Score dots at vertices */
 .score-dot {
     r: 12;
-    stroke: #888;
+    stroke: #444;
     stroke-width: 2;
     cursor: pointer;
     transition: all 0.3s ease;
