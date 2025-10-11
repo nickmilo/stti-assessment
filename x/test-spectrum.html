@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectrum Test</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .test-case {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .test-case.pass {
+            background: #e8f5e9;
+            border-color: #4caf50;
+        }
+        .test-case.fail {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #333;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tendency Spectrum Test Suite</h1>
+    <div id="tests"></div>
+    <div class="summary" id="summary"></div>
+
+    <script>
+        // Test cases with expected behaviors
+        const testCases = [
+            { code: '0001', A: 28, G: 14, expectedPercent: 66.67, expectedExpand: 'healthyArchitecting', desc: 'High Architect (SP)' },
+            { code: '0002', A: 24, G: 18, expectedPercent: 57.14, expectedExpand: null, desc: 'Balanced (SQ)' },
+            { code: '0003', A: 14, G: 28, expectedPercent: 33.33, expectedExpand: 'healthyGardening', desc: 'High Gardener (IT)' },
+            { code: '0004', A: 21, G: 21, expectedPercent: 50.00, expectedExpand: null, desc: 'Perfect Balance' },
+            { code: '0005', A: 30, G: 12, expectedPercent: 71.43, expectedExpand: 'healthyArchitecting', desc: 'Very High Architect' },
+            { code: '0006', A: 12, G: 30, expectedPercent: 28.57, expectedExpand: 'healthyGardening', desc: 'Very High Gardener' },
+            { code: '0007', A: 25, G: 17, expectedPercent: 59.52, expectedExpand: null, desc: 'Slight Architect' },
+            { code: '0008', A: 17, G: 25, expectedPercent: 40.48, expectedExpand: null, desc: 'Slight Gardener' },
+        ];
+
+        // Color interpolation function (copied from main.js)
+        function getGradientColorAtPercent(percent) {
+            const cyan = { r: 93, g: 188, b: 210 };
+            const green = { r: 103, g: 192, b: 115 };
+            const t = percent / 100;
+            const r = Math.round(green.r + (cyan.r - green.r) * t);
+            const g = Math.round(green.g + (cyan.g - green.g) * t);
+            const b = Math.round(green.b + (cyan.b - green.b) * t);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        // Position calculation function (copied from main.js)
+        function calculatePosition(architectPercent) {
+            const positionPercent = 100 - architectPercent;
+            const barHeight = 500;
+            const indicatorSize = 50;
+            const topPosition = (positionPercent / 100) * (barHeight - indicatorSize);
+            return topPosition;
+        }
+
+        // Auto-expand logic (copied from main.js)
+        function determineAutoExpand(architectPercent) {
+            if (architectPercent > 60) return 'healthyArchitecting';
+            if (architectPercent < 40) return 'healthyGardening';
+            return null;
+        }
+
+        // Run tests
+        let passed = 0;
+        let failed = 0;
+        const testsDiv = document.getElementById('tests');
+
+        testCases.forEach(test => {
+            const total = test.A + test.G;
+            const actualPercent = (test.A / total) * 100;
+            const position = calculatePosition(actualPercent);
+            const color = getGradientColorAtPercent(actualPercent);
+            const autoExpand = determineAutoExpand(actualPercent);
+
+            const percentMatch = Math.abs(actualPercent - test.expectedPercent) < 0.1;
+            const expandMatch = autoExpand === test.expectedExpand;
+            const positionValid = position >= 0 && position <= 450; // Valid range
+
+            const pass = percentMatch && expandMatch && positionValid;
+            if (pass) passed++; else failed++;
+
+            const div = document.createElement('div');
+            div.className = `test-case ${pass ? 'pass' : 'fail'}`;
+            div.innerHTML = `
+                <h3>${test.code} - ${test.desc}</h3>
+                <div>Scores: A=${test.A}, G=${test.G}</div>
+                <div>Architect %: ${actualPercent.toFixed(2)}% (expected: ${test.expectedPercent}%) ${percentMatch ? '✓' : '✗'}</div>
+                <div>Position: ${position.toFixed(2)}px from top ${positionValid ? '✓' : '✗'}</div>
+                <div>Color: ${color}</div>
+                <div>Auto-expand: ${autoExpand || 'none'} (expected: ${test.expectedExpand || 'none'}) ${expandMatch ? '✓' : '✗'}</div>
+                <div class="result">${pass ? 'PASS' : 'FAIL'}</div>
+            `;
+            testsDiv.appendChild(div);
+        });
+
+        // Summary
+        document.getElementById('summary').innerHTML = `
+            <h2>Test Summary</h2>
+            <div>Total Tests: ${testCases.length}</div>
+            <div>Passed: ${passed}</div>
+            <div>Failed: ${failed}</div>
+            <div style="margin-top: 10px; font-weight: bold; color: ${failed === 0 ? '#4caf50' : '#f44336'}">
+                ${failed === 0 ? '✓ ALL TESTS PASSED' : '✗ SOME TESTS FAILED'}
+            </div>
+        `;
+    </script>
+</body>
+</html>
