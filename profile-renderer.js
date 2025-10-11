@@ -141,9 +141,6 @@ class ProfileRenderer {
             // Render stuck/unstuck section
             this.renderSection('stuckUnstuck', profile.stuckUnstuck);
 
-            // Render prompts section
-            this.renderSection('prompts', profile.prompts);
-
             // Render archetypes synergy section
             this.renderSection('archetypesSynergy', profile.archetypesSynergy);
 
@@ -190,7 +187,7 @@ class ProfileRenderer {
     }
 
     /**
-     * Render collapsible sections (overwhelmed, stuckUnstuck, prompts, archetypesSynergy)
+     * Render collapsible sections (overwhelmed, stuckUnstuck, archetypesSynergy)
      * These sections have both title and content
      */
     renderSection(sectionType, sectionData) {
@@ -201,9 +198,6 @@ class ProfileRenderer {
                 break;
             case 'stuckUnstuck':
                 sectionId = 'stuckUnstuckSection';
-                break;
-            case 'prompts':
-                sectionId = 'promptsSection';
                 break;
             case 'archetypesSynergy':
                 sectionId = 'archetypesSynergySection';
