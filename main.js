@@ -1275,8 +1275,8 @@
                 r: '50%'
             });
             architectGradient.innerHTML = `
-                <stop offset="0%" style="stop-color:#3ECDE0;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#2B7A8A;stop-opacity:1" />
+                <stop offset="0%" style="stop-color:#5dbcd2;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#4a9fb0;stop-opacity:1" />
             `;
             defs.appendChild(architectGradient);
 
@@ -1288,8 +1288,8 @@
                 r: '50%'
             });
             gardenerGradient.innerHTML = `
-                <stop offset="0%" style="stop-color:#7FD687;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#4A8C54;stop-opacity:1" />
+                <stop offset="0%" style="stop-color:#67c073;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#52a65e;stop-opacity:1" />
             `;
             defs.appendChild(gardenerGradient);
 
@@ -1341,7 +1341,7 @@
                     'text-anchor': 'middle',
                     'font-size': '18',
                     'font-weight': '600',
-                    'fill': '#2B7A8A'
+                    'fill': '#5dbcd2'
                 }
             );
             svg.appendChild(architectLabel);
@@ -1353,7 +1353,7 @@
                     'text-anchor': 'middle',
                     'font-size': '18',
                     'font-weight': '600',
-                    'fill': '#4A8C54'
+                    'fill': '#67c073'
                 }
             );
             svg.appendChild(gardenerLabel);
