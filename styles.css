@@ -1780,19 +1780,13 @@
 /* Score dots at vertices */
 .score-dot {
     r: 12;
-    stroke: white;
+    stroke: #888;
     stroke-width: 2;
     cursor: pointer;
     transition: all 0.3s ease;
     opacity: 0;
     transform-origin: center;
     transform: scale(0);
-}
-
-/* Dark grey border for Inner Guide dot (yellow) */
-.score-dot[data-label="Inner Guide"] {
-    stroke: #444;
-    stroke-width: 2;
 }
 
 .score-dot:hover {
