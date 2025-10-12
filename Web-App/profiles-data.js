@@ -11,7 +11,7 @@
 window.STTI_PROFILES = {
   "IP-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
     },
     "orientationDescription": {
       "content": "As an <strong>IP-Architect</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>architect</strong> (notice how the image spans diagonally across quadrants). You are known as \"converters.\" You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and creation."
@@ -30,7 +30,7 @@ window.STTI_PROFILES = {
   },
   "IP-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
     },
     "orientationDescription": {
       "content": "As an <strong>IP-Gardener</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>garden</strong> (notice how the image spans diagonally across quadrants). You are known as \"converters.\" You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and creation."
@@ -49,7 +49,7 @@ window.STTI_PROFILES = {
   },
   "IS-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
     },
     "orientationDescription": {
       "content": "As an <strong>IS-Architect</strong>, you have a <strong>Westerner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the western side). Westerners are known as \"philosophers.\" They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing."
@@ -68,7 +68,7 @@ window.STTI_PROFILES = {
   },
   "IS-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
     },
     "orientationDescription": {
       "content": "As an <strong>IS-Gardener</strong>, you have a <strong>Westerner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the western side). Westerners are known as \"philosophers.\" They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing."
@@ -87,7 +87,7 @@ window.STTI_PROFILES = {
   },
   "IC-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
     },
     "orientationDescription": {
       "content": "As an <strong>IC-Architect</strong>, you have a <strong>Southern</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the southern side). Southern are known as \"explorers.\" They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation."
@@ -106,7 +106,7 @@ window.STTI_PROFILES = {
   },
   "IC-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Inner Guide</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
+      "content": "The <strong>Inner Guide</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
     },
     "orientationDescription": {
       "content": "As an <strong>IC-Gardener</strong>, you have a <strong>Southern</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the southern side). Southern are known as \"explorers.\" They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation."
@@ -125,7 +125,7 @@ window.STTI_PROFILES = {
   },
   "PI-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
     },
     "orientationDescription": {
       "content": "As a <strong>PI-Architect</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>architect</strong> (notice how the image spans diagonally across quadrants). You are known as \"converters.\" You excel at transforming inner insights into productive action, bridging meaning with execution. Your diagonal nature allows you to move fluidly between reflection and creation."
@@ -144,7 +144,7 @@ window.STTI_PROFILES = {
   },
   "PI-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
     },
     "orientationDescription": {
       "content": "As a <strong>PI-Gardener</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>garden</strong> (notice how the image spans diagonally across quadrants). You are known as \"converters.\" You excel at transforming inner insights into productive action, bridging meaning with execution. Your diagonal nature allows you to move fluidly between reflection and creation."
@@ -163,7 +163,7 @@ window.STTI_PROFILES = {
   },
   "PS-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
     },
     "orientationDescription": {
       "content": "As a <strong>PS-Architect</strong>, you have a <strong>Northerner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the northern side). Northerners are known as \"builders.\" They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution."
@@ -182,7 +182,7 @@ window.STTI_PROFILES = {
   },
   "PS-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
     },
     "orientationDescription": {
       "content": "As a <strong>PS-Gardener</strong>, you have a <strong>Northerner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the northern side). Northerners are known as \"builders.\" They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution."
@@ -201,7 +201,7 @@ window.STTI_PROFILES = {
   },
   "PC-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
     },
     "orientationDescription": {
       "content": "As a <strong>PC-Architect</strong>, you have an <strong>Easterner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the eastern side). Easterners are known as \"makers.\" They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection."
@@ -220,7 +220,7 @@ window.STTI_PROFILES = {
   },
   "PC-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Producer</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
+      "content": "The <strong>Producer</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
     },
     "orientationDescription": {
       "content": "As a <strong>PC-Gardener</strong>, you have an <strong>Easterner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the eastern side). Easterners are known as \"makers.\" They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection."
@@ -239,7 +239,7 @@ window.STTI_PROFILES = {
   },
   "SI-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
     },
     "orientationDescription": {
       "content": "As a <strong>SI-Architect</strong>, you have a <strong>Westerner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the western side). Westerners are known as \"philosophers.\" They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing."
@@ -258,7 +258,7 @@ window.STTI_PROFILES = {
   },
   "SI-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action."
     },
     "orientationDescription": {
       "content": "As a <strong>SI-Gardener</strong>, you have a <strong>Westerner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the western side). Westerners are known as \"philosophers.\" They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing."
@@ -277,7 +277,7 @@ window.STTI_PROFILES = {
   },
   "SP-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
     },
     "orientationDescription": {
       "content": "As a <strong>SP-Architect</strong>, you have a <strong>Northerner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the northern side). Northerners are known as \"builders.\" They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution."
@@ -296,7 +296,7 @@ window.STTI_PROFILES = {
   },
   "SP-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable."
     },
     "orientationDescription": {
       "content": "As a <strong>SP-Gardener</strong>, you have a <strong>Northerner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the northern side). Northerners are known as \"builders.\" They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution."
@@ -315,7 +315,7 @@ window.STTI_PROFILES = {
   },
   "SC-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
     },
     "orientationDescription": {
       "content": "As a <strong>SC-Architect</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>architect</strong> (notice how the image spans diagonally across quadrants). You are known as \"translators.\" You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities."
@@ -334,7 +334,7 @@ window.STTI_PROFILES = {
   },
   "SC-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Synthesizer</strong> (dominant) and <strong>Creative</strong> (secondary) archetype combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
+      "content": "The <strong>Synthesizer</strong> is your dominant sensemaking archetype. The <strong>Creative</strong> is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
     },
     "orientationDescription": {
       "content": "As a <strong>SC-Gardener</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>garden</strong> (notice how the image spans diagonally across quadrants). You are known as \"translators.\" You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities."
@@ -353,7 +353,7 @@ window.STTI_PROFILES = {
   },
   "CI-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
     },
     "orientationDescription": {
       "content": "As a <strong>CI-Architect</strong>, you have a <strong>Southern</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the southern side). Southern are known as \"explorers.\" They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation."
@@ -372,7 +372,7 @@ window.STTI_PROFILES = {
   },
   "CI-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Inner Guide</strong> (secondary) archetype combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Inner Guide</strong> is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss."
     },
     "orientationDescription": {
       "content": "As a <strong>CI-Gardener</strong>, you have a <strong>Southern</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the southern side). Southern are known as \"explorers.\" They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation."
@@ -391,7 +391,7 @@ window.STTI_PROFILES = {
   },
   "CP-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
     },
     "orientationDescription": {
       "content": "As a <strong>CP-Architect</strong>, you have an <strong>Easterner</strong> profile with a tendency to <strong>architect</strong> (notice how the image is predominantly focused on the eastern side). Easterners are known as \"makers.\" They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection."
@@ -410,7 +410,7 @@ window.STTI_PROFILES = {
   },
   "CP-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Producer</strong> (secondary) archetype combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Producer</strong> is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection."
     },
     "orientationDescription": {
       "content": "As a <strong>CP-Gardener</strong>, you have an <strong>Easterner</strong> profile with a tendency to <strong>garden</strong> (notice how the image is predominantly focused on the eastern side). Easterners are known as \"makers.\" They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection."
@@ -429,7 +429,7 @@ window.STTI_PROFILES = {
   },
   "CS-Architect": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
     },
     "orientationDescription": {
       "content": "As a <strong>CS-Architect</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>architect</strong> (notice how the image spans diagonally across quadrants). You are known as \"translators.\" You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities."
@@ -448,7 +448,7 @@ window.STTI_PROFILES = {
   },
   "CS-Gardener": {
     "archetypeDescription": {
-      "content": "The <strong>Creative</strong> (dominant) and <strong>Synthesizer</strong> (secondary) archetype combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
+      "content": "The <strong>Creative</strong> is your dominant sensemaking archetype. The <strong>Synthesizer</strong> is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences."
     },
     "orientationDescription": {
       "content": "As a <strong>CS-Gardener</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>garden</strong> (notice how the image spans diagonally across quadrants). You are known as \"translators.\" You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities."
