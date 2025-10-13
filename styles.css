@@ -767,6 +767,13 @@
             max-height: 1200px;  /* Increased to accommodate score visualization bars */
         }
 
+        /* Sticking Points Divider - Separates dominant and secondary sticking points */
+        .section-content hr {
+            margin: 1.5rem 0;
+            border: none;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+        }
+
         /* Score Visualization Section */
         .scores-section {
             margin-bottom: var(--space-2xl);

@@ -19,13 +19,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from meaning to action is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in an echo chamber of your own ideas. You're reflecting on what matters most to you…but without outside input, your perspective can become narrow.\n\nTo break through, you need to broaden your perspective. Activate your <strong>Synthesizer</strong> to explore diverse ideas and sources. Then, you can activate your <strong>Creative</strong> to express your enriched understanding in new ways.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get caught taking action based solely on what works best for you, without considering the broader context or audience.\n\nTo break through, you need to identify the needs of your audience. Activate your <strong>Creative</strong> to understand what resonates with others. Then, you can activate your <strong>Synthesizer</strong> to integrate outside perspectives into your action plan."
     }
   },
   "IP-Gardener": {
@@ -38,13 +34,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with action is by tapping into your Creative archetype, which aligns with your flexible approach to expression."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in an echo chamber of your own ideas. You're reflecting on what matters most to you…but without outside input, your perspective can become narrow.\n\nTo break through, you need to broaden your perspective. Activate your <strong>Synthesizer</strong> to explore diverse ideas and sources. Then, you can activate your <strong>Creative</strong> to express your enriched understanding in new ways.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get caught taking action based solely on what works best for you, without considering the broader context or audience.\n\nTo break through, you need to identify the needs of your audience. Activate your <strong>Creative</strong> to understand what resonates with others. Then, you can activate your <strong>Synthesizer</strong> to integrate outside perspectives into your action plan."
     }
   },
   "IS-Architect": {
@@ -57,13 +49,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They usually double-down on their strengths to analyze, when what they likely need more is to move from reflection to expression."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Westerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from reflection to expression is by tapping into your Producer archetype, which aligns with your structured approach."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in your mind. You're reflecting, or analyzing, or trying to understand…but then come the doubts, and you're caught in paralysis by analysis.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set a goal or deadline and take some action. Then, you can activate your <strong>Creative</strong> to find innovative ways to manifest your deep insights.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your curious mind can dive so deeply into topics that you find yourself following a trail of 'just one more' source.\n\nTo break through, you need to do something with your knowledge. Activate your <strong>Creative</strong> to express what you've learned. Then, you can activate your <strong>Producer</strong> to create with purpose.\n---\n\n<strong>As an Inner Guide, moving to the Synthesizer:</strong>\n\nWhen you combine your Inner Guide and Synthesizer archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from reflection to expression is by tapping into your Producer archetype, which aligns with your structured approach.\n\n<strong>How can you tie your current activity or problem to a concrete outcome or goal? How can your Producer help pull your work along?</strong>\n\nOnce your Producer is activated, you will likely find it becomes easier to drop into your Creative archetype, allowing you to find unique ways to express your deep insights."
     }
   },
   "IS-Gardener": {
@@ -76,13 +64,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Westerner archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from reflection to expression is by tapping into your Creative archetype, which aligns with your flexible, emergent approach."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in your mind. You're reflecting, or analyzing, or trying to understand…but then come the doubts, and you're caught in paralysis by analysis.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set a goal or deadline and take some action. Then, you can activate your <strong>Creative</strong> to find innovative ways to manifest your deep insights.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your curious mind can dive so deeply into topics that you find yourself following a trail of 'just one more' source.\n\nTo break through, you need to do something with your knowledge. Activate your <strong>Creative</strong> to express what you've learned. Then, you can activate your <strong>Producer</strong> to create with purpose.\n---\n\n<strong>As an Inner Guide, moving to the Synthesizer:</strong>\n\nWhen you combine your Inner Guide and Synthesizer archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from reflection to expression is by tapping into your Creative archetype, which aligns with your flexible, emergent approach.\n\n<strong>What wants to emerge from your current reflection? How might your Creative archetype express this organically?</strong>\n\nOnce your Creative is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to find natural ways to manifest your deep insights."
     }
   },
   "IC-Architect": {
@@ -95,13 +79,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to ground exploration with structure is by tapping into your Creative archetype, which aligns with your systematic approach to innovation."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself with so many ideas, interests and insights that you feel scattered across too many different projects and pursuits.\n\nTo break through, you need to organize your insights. Activate your <strong>Synthesizer</strong> to connect your ideas into coherent patterns. Then, you can activate your <strong>Producer</strong> to systematically manifest your organized vision.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get lost in perfecting your vision. You're creating, iterating, refining…but as they say: 'Real artists ship.'\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set deadlines and ship your work. Then, you can activate your <strong>Synthesizer</strong> to make sense of what you've created."
     }
   },
   "IC-Gardener": {
@@ -114,13 +94,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as an Inner Guide",
-      "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as an Inner Guide",
-      "content": "When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Inner Guide",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself with so many ideas, interests and insights that you feel scattered across too many different projects and pursuits.\n\nTo break through, you need to organize your insights. Activate your <strong>Synthesizer</strong> to connect your ideas into coherent patterns. Then, you can activate your <strong>Producer</strong> to systematically manifest your organized vision.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get lost in perfecting your vision. You're creating, iterating, refining…but as they say: 'Real artists ship.'\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set deadlines and ship your work. Then, you can activate your <strong>Synthesizer</strong> to make sense of what you've created."
     }
   },
   "PI-Architect": {
@@ -133,13 +109,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance meaning with execution is by tapping into your Producer archetype, which aligns with your structured approach to systematic action."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself taking action based solely on what works best for you, without considering the broader context or audience.\n\nTo break through, you need to identify the needs of your audience. Activate your <strong>Creative</strong> to understand what resonates with others. Then, you can activate your <strong>Synthesizer</strong> to integrate outside perspectives into your action plan.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective side can get lost in an echo chamber of your own ideas. You're reflecting on what matters most to you…but without outside input, your perspective can become narrow.\n\nTo break through, you need to broaden your perspective. Activate your <strong>Synthesizer</strong> to explore diverse ideas and sources. Then, you can activate your <strong>Creative</strong> to express your enriched understanding in new ways."
     }
   },
   "PI-Gardener": {
@@ -152,13 +124,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with execution is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself taking action based solely on what works best for you, without considering the broader context or audience.\n\nTo break through, you need to identify the needs of your audience. Activate your <strong>Creative</strong> to understand what resonates with others. Then, you can activate your <strong>Synthesizer</strong> to integrate outside perspectives into your action plan.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective side can get lost in an echo chamber of your own ideas. You're reflecting on what matters most to you…but without outside input, your perspective can become narrow.\n\nTo break through, you need to broaden your perspective. Activate your <strong>Synthesizer</strong> to explore diverse ideas and sources. Then, you can activate your <strong>Creative</strong> to express your enriched understanding in new ways."
     }
   },
   "PS-Architect": {
@@ -171,13 +139,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Northerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from structure to innovation is by tapping into your Inner Guide archetype, which aligns with your systematic approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> Your desire for action and progress can devolve into exhaustive tracking of every step. You're measuring everything with stopwatch precision, when sometimes you just need to build.\n\nTo break through, you need to step back and slow down. Activate your <strong>Creative</strong> to inject fresh innovation into your process. Then, you can activate your <strong>Inner Guide</strong> to reconnect with what truly matters.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get absorbed in researching and synthesizing information to the point of over-engineering. You're building Eiffel tower frameworks when all you needed was a simple beachfront hut.\n\nTo break through, you need to reconnect with what matters most. Activate your <strong>Inner Guide</strong> to clarify your purpose. Then, you can activate your <strong>Creative</strong> to find simpler, more elegant solutions."
     }
   },
   "PS-Gardener": {
@@ -190,13 +154,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Northerner archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from systematic work to meaningful action is by tapping into your Creative archetype, which aligns with your flexible approach to innovation."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> Your desire for action and progress can devolve into exhaustive tracking of every step. You're measuring everything with stopwatch precision, when sometimes you just need to build.\n\nTo break through, you need to step back and slow down. Activate your <strong>Creative</strong> to inject fresh innovation into your process. Then, you can activate your <strong>Inner Guide</strong> to reconnect with what truly matters.\n\n---\n\n<strong>Your secondary sticking point:</strong> You can get absorbed in researching and synthesizing information to the point of over-engineering. You're building Eiffel tower frameworks when all you needed was a simple beachfront hut.\n\nTo break through, you need to reconnect with what matters most. Activate your <strong>Inner Guide</strong> to clarify your purpose. Then, you can activate your <strong>Creative</strong> to find simpler, more elegant solutions."
     }
   },
   "PC-Architect": {
@@ -209,13 +169,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Easterner archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> You spend so much time 'doing' that you lose track of why you're doing it. The endless cycle of tasks and output can disconnect you from your deeper purpose.\n\nTo break through, you need to return to your vision. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Synthesizer</strong> to understand how your actions align with your purpose.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your creative side can leave you feeling disorganized and overwhelmed by so many ideas and projects that nothing is getting finished.\n\nTo break through, you need to see the big picture. Activate your <strong>Synthesizer</strong> to organize your ideas into coherent patterns. Then, you can activate your <strong>Inner Guide</strong> to prioritize what matters most."
     }
   },
   "PC-Gardener": {
@@ -228,13 +184,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Producer",
-      "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Producer",
-      "content": "When you combine your Easterner archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense."
+      "title": "Sticking Points & Breaking Through for the Producer",
+      "content": "<strong>Your dominant sticking point:</strong> You spend so much time 'doing' that you lose track of why you're doing it. The endless cycle of tasks and output can disconnect you from your deeper purpose.\n\nTo break through, you need to return to your vision. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Synthesizer</strong> to understand how your actions align with your purpose.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your creative side can leave you feeling disorganized and overwhelmed by so many ideas and projects that nothing is getting finished.\n\nTo break through, you need to see the big picture. Activate your <strong>Synthesizer</strong> to organize your ideas into coherent patterns. Then, you can activate your <strong>Inner Guide</strong> to prioritize what matters most."
     }
   },
   "SI-Architect": {
@@ -247,13 +199,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Westerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from understanding to expression is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in understanding. You're researching, or connecting ideas, or following threads…but then the threads multiply, and you're caught following 'just one more' source.\n\nTo break through, you need to do something with your knowledge. Activate your <strong>Creative</strong> to express what you've learned. Then, you can activate your <strong>Producer</strong> to create with purpose.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective mind can get lost in analysis. You're trying to understand your place, your purpose, your path…but then come the doubts, and you're caught in paralysis by analysis.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set a goal or deadline and take some action. Then, you can activate your <strong>Creative</strong> to find innovative ways to manifest your understanding.\n---\n\n<strong>As a Synthesizer, moving to the Inner Guide:</strong>\n\nWhen you combine your Synthesizer and Inner Guide archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from understanding to expression is by tapping into your Producer archetype, which aligns with your structured approach to building.\n\n<strong>How can you structure your insights for systematic creative expression? What frameworks would help you manifest your understanding in innovative ways?</strong>\n\nOnce your Producer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to express your deep understanding through original contributions."
     }
   },
   "SI-Gardener": {
@@ -266,13 +214,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Westerner archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from understanding to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in understanding. You're researching, or connecting ideas, or following threads…but then the threads multiply, and you're caught following 'just one more' source.\n\nTo break through, you need to do something with your knowledge. Activate your <strong>Creative</strong> to express what you've learned. Then, you can activate your <strong>Producer</strong> to create with purpose.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective mind can get lost in analysis. You're trying to understand your place, your purpose, your path…but then come the doubts, and you're caught in paralysis by analysis.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set a goal or deadline and take some action. Then, you can activate your <strong>Creative</strong> to find innovative ways to manifest your understanding."
     }
   },
   "SP-Architect": {
@@ -285,13 +229,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Northerner archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance building with meaning is by tapping into your Creative archetype, which aligns with your structured approach to innovation."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself absorbed in researching and synthesizing information to the point of over-engineering. You're building Eiffel tower frameworks when all you needed was a simple beachfront hut.\n\nTo break through, you need to reconnect with what matters most. Activate your <strong>Inner Guide</strong> to clarify your purpose. Then, you can activate your <strong>Creative</strong> to find simpler, more elegant solutions.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your action-oriented side's desire for progress can devolve into exhaustive tracking of every step. You're measuring everything with stopwatch precision, when sometimes you just need to build.\n\nTo break through, you need to step back and slow down. Activate your <strong>Creative</strong> to inject fresh innovation into your process. Then, you can activate your <strong>Inner Guide</strong> to reconnect with what truly matters."
     }
   },
   "SP-Gardener": {
@@ -304,13 +244,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Northerner archetypes with a Gardener tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance building with meaning is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself absorbed in researching and synthesizing information to the point of over-engineering. You're building Eiffel tower frameworks when all you needed was a simple beachfront hut.\n\nTo break through, you need to reconnect with what matters most. Activate your <strong>Inner Guide</strong> to clarify your purpose. Then, you can activate your <strong>Creative</strong> to find simpler, more elegant solutions.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your action-oriented side's desire for progress can devolve into exhaustive tracking of every step. You're measuring everything with stopwatch precision, when sometimes you just need to build.\n\nTo break through, you need to step back and slow down. Activate your <strong>Creative</strong> to inject fresh innovation into your process. Then, you can activate your <strong>Inner Guide</strong> to reconnect with what truly matters."
     }
   },
   "SC-Architect": {
@@ -323,13 +259,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in complexity. You're viewing every concept from all possible interdisciplinary perspectives, building elaborate conceptual frameworks that may obscure rather than clarify.\n\nTo break through, you need to ground yourself with clear intention. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Producer</strong> to translate your understanding into concrete action.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your creative side can feel the internal tension of wanting your creation to be mind blowingly original and brilliant, leading to perfectionism and hesitation.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to ship your work and iterate. Then, you can activate your <strong>Inner Guide</strong> to reflect on what you've learned from creating."
     }
   },
   "SC-Gardener": {
@@ -342,13 +274,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Synthesizer",
-      "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Synthesizer",
-      "content": "When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to meaning is by tapping into your Producer archetype, which aligns with your flexible approach to systematic action."
+      "title": "Sticking Points & Breaking Through for the Synthesizer",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself getting lost in complexity. You're viewing every concept from all possible interdisciplinary perspectives, building elaborate conceptual frameworks that may obscure rather than clarify.\n\nTo break through, you need to ground yourself with clear intention. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Producer</strong> to translate your understanding into concrete action.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your creative side can feel the internal tension of wanting your creation to be mind blowingly original and brilliant, leading to perfectionism and hesitation.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to ship your work and iterate. Then, you can activate your <strong>Inner Guide</strong> to reflect on what you've learned from creating."
     }
   },
   "CI-Architect": {
@@ -361,13 +289,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from exploration to structure is by tapping into your Producer archetype, which aligns with your systematic approach to building."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself lost in perfecting your vision. You're creating, iterating, refining…but as they say: 'Real artists ship.'\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set deadlines and ship your work. Then, you can activate your <strong>Synthesizer</strong> to make sense of what you've created.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective mind generates so many ideas, interests and insights that you feel scattered across too many different projects and pursuits.\n\nTo break through, you need to organize your insights. Activate your <strong>Synthesizer</strong> to connect your ideas into coherent patterns. Then, you can activate your <strong>Producer</strong> to systematically manifest your organized vision."
     }
   },
   "CI-Gardener": {
@@ -380,13 +304,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself lost in perfecting your vision. You're creating, iterating, refining…but as they say: 'Real artists ship.'\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to set deadlines and ship your work. Then, you can activate your <strong>Synthesizer</strong> to make sense of what you've created.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your reflective mind generates so many ideas, interests and insights that you feel scattered across too many different projects and pursuits.\n\nTo break through, you need to organize your insights. Activate your <strong>Synthesizer</strong> to connect your ideas into coherent patterns. Then, you can activate your <strong>Producer</strong> to systematically manifest your organized vision."
     }
   },
   "CP-Architect": {
@@ -399,13 +319,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Easterner archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself feeling disorganized and overwhelmed by so many ideas and projects that nothing is getting finished.\n\nTo break through, you need to see the big picture. Activate your <strong>Synthesizer</strong> to organize your ideas into coherent patterns. Then, you can activate your <strong>Inner Guide</strong> to prioritize what matters most.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your productive side can lead you to spend so much time 'doing' that you lose track of why you're doing it. The endless cycle of tasks and output can disconnect you from your deeper purpose.\n\nTo break through, you need to return to your vision. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Synthesizer</strong> to understand how your actions align with your purpose."
     }
   },
   "CP-Gardener": {
@@ -418,13 +334,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Easterner archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself feeling disorganized and overwhelmed by so many ideas and projects that nothing is getting finished.\n\nTo break through, you need to see the big picture. Activate your <strong>Synthesizer</strong> to organize your ideas into coherent patterns. Then, you can activate your <strong>Inner Guide</strong> to prioritize what matters most.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your productive side can lead you to spend so much time 'doing' that you lose track of why you're doing it. The endless cycle of tasks and output can disconnect you from your deeper purpose.\n\nTo break through, you need to return to your vision. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Synthesizer</strong> to understand how your actions align with your purpose."
     }
   },
   "CS-Architect": {
@@ -437,13 +349,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to depth is by tapping into your Producer archetype, which aligns with your structured approach to systematic action."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself feeling the internal tension of wanting your creation to be mind blowingly original and brilliant, leading to perfectionism and hesitation.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to ship your work and iterate. Then, you can activate your <strong>Inner Guide</strong> to reflect on what you've learned from creating.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your synthesizing side can get lost in complexity. You're viewing every concept from all possible interdisciplinary perspectives, building elaborate conceptual frameworks that may obscure rather than clarify.\n\nTo break through, you need to ground yourself with clear intention. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Producer</strong> to translate your understanding into concrete action."
     }
   },
   "CS-Gardener": {
@@ -456,13 +364,9 @@ window.STTI_PROFILES = {
     "tendencyDescription": {
       "content": "The <strong>Gardener</strong> is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration."
     },
-    "overwhelmed": {
-      "title": "Your key challenge as a Creative",
-      "content": "They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding."
-    },
     "stuckUnstuck": {
-      "title": "Getting unstuck as a Creative",
-      "content": "When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making."
+      "title": "Sticking Points & Breaking Through for the Creative",
+      "content": "<strong>Your dominant sticking point:</strong> You find yourself feeling the internal tension of wanting your creation to be mind blowingly original and brilliant, leading to perfectionism and hesitation.\n\nTo break through, you need to act. Activate your <strong>Producer</strong> to ship your work and iterate. Then, you can activate your <strong>Inner Guide</strong> to reflect on what you've learned from creating.\n\n---\n\n<strong>Your secondary sticking point:</strong> Your synthesizing side can get lost in complexity. You're viewing every concept from all possible interdisciplinary perspectives, building elaborate conceptual frameworks that may obscure rather than clarify.\n\nTo break through, you need to ground yourself with clear intention. Activate your <strong>Inner Guide</strong> to reconnect with what truly matters. Then, you can activate your <strong>Producer</strong> to translate your understanding into concrete action."
     }
   }
 };

@@ -135,10 +135,7 @@ class ProfileRenderer {
             // Render tendency description (new)
             this.renderDescriptionSection('tendencyDescription', profile.tendencyDescription);
 
-            // Render overwhelmed section
-            this.renderSection('overwhelmed', profile.overwhelmed);
-
-            // Render stuck/unstuck section
+            // Render stuck/unstuck section (now "Sticking Points & Breaking Through")
             this.renderSection('stuckUnstuck', profile.stuckUnstuck);
 
             // Render archetypes synergy section
@@ -187,15 +184,13 @@ class ProfileRenderer {
     }
 
     /**
-     * Render collapsible sections (overwhelmed, stuckUnstuck, archetypesSynergy)
+     * Render collapsible sections (stuckUnstuck, archetypesSynergy)
      * These sections have both title and content
+     * Note: 'overwhelmed' removed - merged into stuckUnstuck as "Sticking Points & Breaking Through"
      */
     renderSection(sectionType, sectionData) {
         let sectionId;
         switch (sectionType) {
-            case 'overwhelmed':
-                sectionId = 'overwhelmedSection';
-                break;
             case 'stuckUnstuck':
                 sectionId = 'stuckUnstuckSection';
                 break;
