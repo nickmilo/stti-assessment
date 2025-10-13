@@ -769,7 +769,7 @@
 
         /* Sticking Points Divider - Separates dominant and secondary sticking points */
         .section-content hr {
-            margin: 1.5rem 0;
+            margin: 0.6rem 0;
             border: none;
             border-top: 2px solid rgba(0, 0, 0, 0.1);
         }
