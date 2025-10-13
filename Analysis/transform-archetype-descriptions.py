@@ -3,8 +3,14 @@
 Transform archetype description sentences in STTI Master Profiles.
 
 Changes the pattern:
-FROM: "The **{Dom}** (dominant) and **{Sec}** (secondary) archetype combination creates"
-TO:   "The **{Dom}** is your dominant sensemaking archetype. The **{Sec}** is your secondary. This combination creates"
+FROM: "The **{Dom}** is your dominant sensemaking archetype. The **{Sec}** is your secondary. This combination creates"
+TO:   "**{Dom}** is your dominant sensemaking archetype, and **{Sec}** is your secondary. This combination creates"
+
+Key changes:
+1. Remove "The" from the beginning of both archetype names
+2. Combine the two sentences into one with a comma and "and"
+3. Keep bold formatting on archetype names
+4. Preserve the rest of the paragraph
 
 Author: Claude Code
 Date: 2025-10-12
@@ -17,7 +23,7 @@ from pathlib import Path
 
 def transform_archetype_description(text: str, dry_run: bool = True) -> tuple[str, list[dict]]:
     """
-    Transform archetype description sentences.
+    Transform archetype description sentences from two sentences to one compound sentence.
 
     Args:
         text: Full text of STTI Master Profiles.md
@@ -28,10 +34,11 @@ def transform_archetype_description(text: str, dry_run: bool = True) -> tuple[st
     """
     changes = []
 
-    # Pattern to match: The **{Dom}** (dominant) and **{Sec}** (secondary) archetype combination creates
-    # Capture groups: 1=Dom archetype, 2=Sec archetype, 3=rest of sentence
+    # Pattern to match current two-sentence structure:
+    # "The **{Dom}** is your dominant sensemaking archetype. The **{Sec}** is your secondary. This combination creates..."
+    # Capture groups: 1=Dom archetype, 2=Sec archetype, 3=rest of paragraph
     pattern = re.compile(
-        r'The \*\*([A-Za-z\s]+)\*\* \(dominant\) and \*\*([A-Za-z\s]+)\*\* \(secondary\) archetype combination creates\s+(.+?)(?=\n\n|\Z)',
+        r'The \*\*([A-Za-z\s]+)\*\* is your dominant sensemaking archetype\. The \*\*([A-Za-z\s]+)\*\* is your secondary\.\s+(This combination creates.+?)(?=\n\n|\Z)',
         re.DOTALL
     )
 
@@ -40,15 +47,15 @@ def transform_archetype_description(text: str, dry_run: bool = True) -> tuple[st
         sec = match.group(2)
         rest = match.group(3)
 
-        # Create new structure
-        new_text = f"The **{dom}** is your dominant sensemaking archetype. The **{sec}** is your secondary. This combination creates {rest}"
+        # Create new combined sentence structure
+        new_text = f"**{dom}** is your dominant sensemaking archetype, and **{sec}** is your secondary. {rest}"
 
         # Record the change
         changes.append({
             'dominant': dom,
             'secondary': sec,
-            'original': match.group(0)[:100] + '...' if len(match.group(0)) > 100 else match.group(0),
-            'new': new_text[:100] + '...' if len(new_text) > 100 else new_text
+            'original': match.group(0)[:150] + '...' if len(match.group(0)) > 150 else match.group(0),
+            'new': new_text[:150] + '...' if len(new_text) > 150 else new_text
         })
 
         return new_text if not dry_run else match.group(0)

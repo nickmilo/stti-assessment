@@ -1,0 +1,717 @@
+# STTI Profiles Master Content
+
+This document contains ALL custom text content for the 24 STTI sensemaking profiles as currently implemented in the system. This serves as the master source for all profile-specific content that can be edited and then re-integrated into the architecture.
+
+## Content Structure
+
+Each profile has seven main content sections:
+- **Archetype Description**: Standard text explaining the dominant/secondary archetype combination
+- **Orientation Description**: Profile-specific text explaining the orientation (Westerner, Easterner, etc.) and tendency
+- **Tendency Description**: Standard text explaining Architect vs Gardener approach
+- **Overwhelmed**: How each orientation handles being overwhelmed
+- **Stuck/Unstuck**: Guidance for getting unstuck based on profile combination
+- **Prompts**: Specific questions to help transition between archetypes
+- **Archetype Synergy**: How the two dominant archetypes work together (only implemented for IS profiles currently)
+
+---
+
+## Sensemaking Tendencies Copy 
+
+### Understanding your sensemaking tendencies (thinking styles)
+
+This section articulates the differences between top-down "Architect" or bottom-up "Gardener". Neither style is better than the other. Both are needed.
+
+#### If your *Architect (Top-down)* score is higher than your *Gardener (Bottom-up)* score...
+
+**"Convergent thinker"** (Healthy tendency): You enjoy seeing the big picture. When possible, you prefer knowing more about a subject or situation before you act. You like categorizing, and you use the big picture to further your sensemaking and decision-making. You are a good organizer and benefit from having a few lists and maps to guide your actions. The question is, can your convergent thinking be loose enough to allow for emergent thinking?
+
+**"Fragile thinker"** (Unhealthy tendency): When taken too far, your tendency to architect can lead to stifling, rigid thinking. When that need sets in, you can become paralyzed when you don't have enough structure. This can manifest in coming across as needy and overburdening others. Sometimes it can even turn brainstorming sessions into prosecutions.
+
+#### If your *Gardener (Bottom-up)* score is higher than your *Architect (Top-down)* score...
+
+**"Divergent Thinker"** (Healthy tendency): You are comfortable without having a complete high-level picture. Instead, you are able to work with limited information and follow the trail of enthusiasm, clues, and connections. You generate a lot of thoughts. The question is, can your divergent thinking lead to emergent thinking?
+
+**"Scattered Thinker"** (Unhealthy tendency): When taken too far, your tendency to garden can lead to a chronic sense of anxiety around trying to find things—whether it's car keys or old notes. One tendency of unhealthy bottom-up thinking is to chronically collect new and exciting information...never to touch it again.
+
+## Boilerplate to define the four Sensemaking Archetypes
+
+### Understanding the Archetypes
+
+**Inner Guides** want to nourish their minds and reflect on their place in the world. Self-exploration and self-discovery are most important to them, with the end goal being the cultivation of a meaningful life where values, intentions and actions are aligned. 
+
+This archetype is embodied by lifelong learners, personal development enthusiasts, people at transition points in life searching for clarity on who they are and where they want to go, and those who feel a strong need to move away from the noise of other people’s thoughts and find grounding and calmness in their own. 
+
+**Synthesizers** want to collect, reorganize and reframe knowledge. Whether the source information is the dozens of sparks flying through their mind in a day or multiple books, articles and videos, synthesizers are driven to make connections among disparate ideas and find clarity in complexity. 
+
+This archetype is embodied by professional researchers, educators, students, and deep thinkers in all disciplines. 
+
+**Producers** want to flourish in their careers and get things done. They are driven to apply what they’ve learned to clear outcomes, embracing workflows and systems that help them to be more efficient and effective in tracking progress and moving efforts forward, taking action and prioritizing tangible results.
+
+This archetype is embodied by entrepreneurs, managers, students at particular points in their learning, and anyone who is aspiring for professional or academic growth. 
+
+**Creatives** want to express their inner selves in unique and meaningful ways. They are driven to develop skills in the medium of their choice so they can share their knowledge and experiences in ways that are helpful and impactful to others. It’s not always obvious why a creative is spending time on certain things, but those things often flavor their thoughts and ideas in unique ways.
+
+This archetype is embodied by active or aspiring authors, writers, and creators of all kinds. 
+
+
+---
+
+## IP-Architect (Inner Guide + Producer, Architect Tendency)
+[comment]: # (Secret Code: 0001)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes.
+
+### Orientation Description
+As an **IP-Architect**, you have a **Diagonal** profile with a tendency to **architect** (notice how the image spans diagonally across quadrants). You are known as "converters." You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and creation.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from meaning to action is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense.
+
+### Prompts
+**Title:** Prompts to balance meaning with action as an IP-Architect
+**Content:** How can you create systematic pathways from insight to action? What would a sustainable process look like for converting your deep understanding into concrete outcomes? Once your Synthesizer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to find innovative ways to bridge meaning and execution.
+
+---
+
+## IP-Gardener (Inner Guide + Producer, Gardener Tendency)
+[comment]: # (Secret Code: 0002)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes.
+
+### Orientation Description
+As an **IP-Gardener**, you have a **Diagonal** profile with a tendency to **garden** (notice how the image spans diagonally across quadrants). You are known as "converters." You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and creation.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with action is by tapping into your Creative archetype, which aligns with your flexible approach to expression.
+
+### Prompts
+**Title:** Prompts to balance meaning with action as an IP-Gardener
+**Content:** What rhythm naturally emerges between your inner knowing and outer creating? How can your Creative help you express insights organically? Once your Creative is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to make sense of your creative expressions.
+
+---
+
+## IS-Architect (Inner Guide + Synthesizer, Architect Tendency)
+[comment]: # (Secret Code: 0003)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action.
+
+### Orientation Description
+As an **IS-Architect**, you have a **Westerner** profile with a tendency to **architect** (notice how the image is predominantly focused on the western side). Westerners are known as "philosophers." They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They usually double-down on their strengths to analyze, when what they likely need more is to move from reflection to expression.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Westerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from reflection to expression is by tapping into your Producer archetype, which aligns with your structured approach.
+
+### Prompts
+**Title:** Prompts to go from West to East as an IS-Architect
+**Content:** How can you tie your current activity or problem to a concrete outcome or goal? How can your Producer help pull your work along? Once your Producer is activated, you will likely find it becomes easier to drop into your Creative archetype, allowing you to find unique ways to express your deep insights.
+
+### Archetype Synergy
+**Title:** When your two dominant archetypes are working well together...
+**Content:** Your Inner Guide and Synthesizer create a powerful philosophical engine. The Inner Guide provides deep meaning and purpose, while the Synthesizer weaves complex ideas into coherent frameworks. When these archetypes are aligned, you become a master of profound insight—able to find meaningful patterns in complexity and articulate wisdom that others struggle to express. This combination allows you to architect not just systems, but entire worldviews.
+
+---
+
+## IS-Gardener (Inner Guide + Synthesizer, Gardener Tendency)
+[comment]: # (Secret Code: 0004)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action.
+
+### Orientation Description
+As an **IS-Gardener**, you have a **Westerner** profile with a tendency to **garden** (notice how the image is predominantly focused on the western side). Westerners are known as "philosophers." They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Westerner archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from reflection to expression is by tapping into your Creative archetype, which aligns with your flexible, emergent approach.
+
+### Prompts
+**Title:** Prompts to go from West to East as an IS-Gardener
+**Content:** What wants to emerge from your current reflection? How might your Creative archetype express this organically? Once your Creative is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to find natural ways to manifest your deep insights.
+
+### Archetype Synergy
+**Title:** When your two dominant archetypes are working well together...
+**Content:** Your Inner Guide and Synthesizer create a flexible wisdom system. The Inner Guide grounds you in what's truly meaningful, while the Synthesizer helps you see connections across diverse domains. When these archetypes are in harmony, you become a natural philosopher-gardener—someone who can nurture ideas organically while maintaining deep purposefulness. This combination allows you to cultivate insights that grow naturally from authentic understanding rather than forced analysis.
+
+---
+
+## IC-Architect (Inner Guide + Creative, Architect Tendency)
+[comment]: # (Secret Code: 0005)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss.
+
+### Orientation Description
+As an **IC-Architect**, you have a **Southern** profile with a tendency to **architect** (notice how the image is predominantly focused on the southern side). Southern are known as "explorers." They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to ground exploration with structure is by tapping into your Creative archetype, which aligns with your systematic approach to innovation.
+
+### Prompts
+**Title:** Prompts to ground exploration with structure as an IC-Architect
+**Content:** How can you bring more structure to your creative explorations? What systems would help you manifest your innovative insights? Once your Creative is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to build systematic progress from your discoveries.
+
+---
+
+## IC-Gardener (Inner Guide + Creative, Gardener Tendency)
+[comment]: # (Secret Code: 0006)
+
+### Archetype Description
+The **Inner Guide** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss.
+
+### Orientation Description
+As an **IC-Gardener**, you have a **Southern** profile with a tendency to **garden** (notice how the image is predominantly focused on the southern side). Southern are known as "explorers." They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as an Inner Guide
+**Content:** They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as an Inner Guide
+**Content:** When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to ground exploration with direction as an IC-Gardener
+**Content:** What patterns are emerging from your creative discoveries? How can your Inner Guide help you make deeper sense of your explorations organically? Once your Inner Guide is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to weave your insights into coherent understanding.
+
+---
+
+## PI-Architect (Producer + Inner Guide, Architect Tendency)
+[comment]: # (Secret Code: 0007)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes.
+
+### Orientation Description
+As a **PI-Architect**, you have a **Diagonal** profile with a tendency to **architect** (notice how the image spans diagonally across quadrants). You are known as "converters." You excel at transforming inner insights into productive action, bridging meaning with execution. Your diagonal nature allows you to move fluidly between reflection and creation.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Converter archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance meaning with execution is by tapping into your Producer archetype, which aligns with your structured approach to systematic action.
+
+### Prompts
+**Title:** Prompts to balance meaning with execution as a PI-Architect
+**Content:** How can you systematically structure your meaningful work for consistent progress? What processes would help you maintain momentum while honoring depth? Once your Producer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to innovate within your systematic approach to meaningful action.
+
+---
+
+## PI-Gardener (Producer + Inner Guide, Gardener Tendency)
+[comment]: # (Secret Code: 0008)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes.
+
+### Orientation Description
+As a **PI-Gardener**, you have a **Diagonal** profile with a tendency to **garden** (notice how the image spans diagonally across quadrants). You are known as "converters." You excel at transforming inner insights into productive action, bridging meaning with execution. Your diagonal nature allows you to move fluidly between reflection and creation.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They may oscillate too rapidly between reflection and action, when what they need is to find a sustainable rhythm that honors both their need for meaning and their drive to make progress.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Converter archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance meaning with execution is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to balance meaning with execution as a PI-Gardener
+**Content:** What natural rhythm emerges between meaningful reflection and purposeful action? How can your Inner Guide help you sense when to move between meaning and execution? Once your Inner Guide is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to weave understanding into your action-oriented approach.
+
+---
+
+## PS-Architect (Producer + Synthesizer, Architect Tendency)
+[comment]: # (Secret Code: 0009)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable.
+
+### Orientation Description
+As a **PS-Architect**, you have a **Northerner** profile with a tendency to **architect** (notice how the image is predominantly focused on the northern side). Northerners are known as "builders." They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Northerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from structure to innovation is by tapping into your Inner Guide archetype, which aligns with your systematic approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from structure to innovation as a PS-Architect
+**Content:** What would happen if you approached this systematically but with creative flair? How can your Inner Guide help you access deeper meaning in your structured process? Once your Inner Guide is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to inject innovation into your methodical approach.
+
+---
+
+## PS-Gardener (Producer + Synthesizer, Gardener Tendency)
+[comment]: # (Secret Code: 0010)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable.
+
+### Orientation Description
+As a **PS-Gardener**, you have a **Northerner** profile with a tendency to **garden** (notice how the image is predominantly focused on the northern side). Northerners are known as "builders." They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Northerner archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from systematic work to meaningful action is by tapping into your Creative archetype, which aligns with your flexible approach to innovation.
+
+### Prompts
+**Title:** Prompts to move from systematic work to meaningful action as a PS-Gardener
+**Content:** When does your systematic approach serve you, and when might exploration be more valuable? How can your Creative help you find innovative approaches to building? Once your Creative is activated, you will likely find it becomes easier to move into your Inner Guide archetype, allowing you to access the deeper meaning behind your systematic work.
+
+---
+
+## PC-Architect (Producer + Creative, Architect Tendency)
+[comment]: # (Secret Code: 0011)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection.
+
+### Orientation Description
+As a **PC-Architect**, you have an **Easterner** profile with a tendency to **architect** (notice how the image is predominantly focused on the eastern side). Easterners are known as "makers." They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Easterner archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from action to reflection as a PC-Architect
+**Content:** How can you bring more systematic structure to your creative work? What processes would help you manifest your innovations more effectively? Once your Producer is activated, you will likely find it becomes easier to move into your Inner Guide archetype, allowing you to access deeper meaning in your systematic creations.
+
+---
+
+## PC-Gardener (Producer + Creative, Gardener Tendency)
+[comment]: # (Secret Code: 0012)
+
+### Archetype Description
+The **Producer** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection.
+
+### Orientation Description
+As a **PC-Gardener**, you have an **Easterner** profile with a tendency to **garden** (notice how the image is predominantly focused on the eastern side). Easterners are known as "makers." They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Producer
+**Content:** They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Producer
+**Content:** When you combine your Easterner archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense.
+
+### Prompts
+**Title:** Prompts to move from action to reflection as a PC-Gardener
+**Content:** What new insights are emerging from your creative work? How can your Creative help you discover unexpected connections in your making process? Once your Creative is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to weave deeper understanding into your innovative outputs.
+
+---
+
+## SI-Architect (Synthesizer + Inner Guide, Architect Tendency)
+[comment]: # (Secret Code: 0013)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action.
+
+### Orientation Description
+As a **SI-Architect**, you have a **Westerner** profile with a tendency to **architect** (notice how the image is predominantly focused on the western side). Westerners are known as "philosophers." They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Westerner archetypes with an Architect tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from understanding to expression is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense.
+
+### Prompts
+**Title:** Prompts to move from understanding to expression as an SI-Architect
+**Content:** How can you structure your insights for systematic creative expression? What frameworks would help you manifest your understanding in innovative ways? Once your Synthesizer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to express your deep understanding through original contributions.
+
+---
+
+## SI-Gardener (Synthesizer + Inner Guide, Gardener Tendency)
+[comment]: # (Secret Code: 0014)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates a philosophical approach to sensemaking. You naturally seek deep understanding and meaning, often spending significant time in reflection and analysis. Your strength lies in your ability to synthesize complex ideas and find underlying patterns, though you may sometimes struggle with moving from contemplation to action.
+
+### Orientation Description
+As a **SI-Gardener**, you have a **Westerner** profile with a tendency to **garden** (notice how the image is predominantly focused on the western side). Westerners are known as "philosophers." They often get stuck reflecting and ruminating, and have difficulty moving from thinking to doing.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They tend to double-down on reflection and analysis, when what they actually need is to move into expression and action, allowing their insights to manifest in the world.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Westerner archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from understanding to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from understanding to action as an SI-Gardener
+**Content:** What meaningful action could emerge organically from your understanding? How can your Inner Guide help you sense what wants to be manifested? Once your Inner Guide is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to take systematic action on your deepest insights.
+
+---
+
+## SP-Architect (Synthesizer + Producer, Architect Tendency)
+[comment]: # (Secret Code: 0015)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable.
+
+### Orientation Description
+As a **SP-Architect**, you have a **Northerner** profile with a tendency to **architect** (notice how the image is predominantly focused on the northern side). Northerners are known as "builders." They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Northerner archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to balance building with meaning is by tapping into your Creative archetype, which aligns with your structured approach to innovation.
+
+### Prompts
+**Title:** Prompts to balance building with meaning as a SP-Architect
+**Content:** How can you systematically analyze what you're building for creative opportunities? What patterns in your work suggest new innovative directions? Once your Synthesizer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to inject fresh innovation into your systematic building process.
+
+---
+
+## SP-Gardener (Synthesizer + Producer, Gardener Tendency)
+[comment]: # (Secret Code: 0016)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a builder's approach to sensemaking. You excel at systematic creation and structured progress, combining practical action with comprehensive understanding. Your strength lies in your ability to construct robust frameworks and methodologies, making complex projects manageable and sustainable.
+
+### Orientation Description
+As a **SP-Gardener**, you have a **Northerner** profile with a tendency to **garden** (notice how the image is predominantly focused on the northern side). Northerners are known as "builders." They excel at structured creation and systematic progress, combining productive action with synthesized understanding. When overwhelmed, Northerners benefit from stepping back to gain perspective before diving into execution.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They may get caught in endless planning and structuring, when what they need is to trust their process and move forward with decisive action, even if everything isn't perfectly planned.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Northerner archetypes with a Gardener tendency, it's most difficult to access your Creative archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to balance building with meaning is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to balance building with meaning as a SP-Gardener
+**Content:** What meaningful action could emerge organically from your building process? How can your Producer help you manifest progress in ways that feel naturally flowing? Once your Producer is activated, you will likely find it becomes easier to move into your Inner Guide archetype, allowing you to access deeper meaning in your systematic work.
+
+---
+
+## SC-Architect (Synthesizer + Creative, Architect Tendency)
+[comment]: # (Secret Code: 0017)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences.
+
+### Orientation Description
+As a **SC-Architect**, you have a **Diagonal** profile with a tendency to **architect** (notice how the image spans diagonally across quadrants). You are known as "translators." You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your structured approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from translation to action as a SC-Architect
+**Content:** What deeper meaning connects the perspectives you're translating? How can your Synthesizer help you structure these connections systematically? Once your Synthesizer is activated, you will likely find it becomes easier to move into your Inner Guide archetype, allowing you to access the intrinsic meaning behind your translations.
+
+---
+
+## SC-Gardener (Synthesizer + Creative, Gardener Tendency)
+[comment]: # (Secret Code: 0018)
+
+### Archetype Description
+The **Synthesizer** is your dominant sensemaking archetype. The **Creative** is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences.
+
+### Orientation Description
+As a **SC-Gardener**, you have a **Diagonal** profile with a tendency to **garden** (notice how the image spans diagonally across quadrants). You are known as "translators." You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Synthesizer
+**Content:** They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Synthesizer
+**Content:** When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to meaning is by tapping into your Producer archetype, which aligns with your flexible approach to systematic action.
+
+### Prompts
+**Title:** Prompts to move from translation to meaning as a SC-Gardener
+**Content:** What creative expressions could emerge from the perspectives you're bridging? How can your Creative help you manifest your translations in innovative ways? Once your Creative is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to take systematic action on your synthesized insights.
+
+---
+
+## CI-Architect (Creative + Inner Guide, Architect Tendency)
+[comment]: # (Secret Code: 0019)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss.
+
+### Orientation Description
+As a **CI-Architect**, you have a **Southern** profile with a tendency to **architect** (notice how the image is predominantly focused on the southern side). Southern are known as "explorers." They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Southern archetypes with an Architect tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from exploration to structure is by tapping into your Producer archetype, which aligns with your systematic approach to building.
+
+### Prompts
+**Title:** Prompts to ground exploration with structure as a CI-Architect
+**Content:** Which of your creative insights are ready to become concrete outcomes? How can your Producer help you build something tangible from your explorations? Once your Producer is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to make systematic sense of your discoveries.
+
+---
+
+## CI-Gardener (Creative + Inner Guide, Gardener Tendency)
+[comment]: # (Secret Code: 0020)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Inner Guide** is your secondary. This combination creates an explorer's approach to sensemaking. You thrive on creative discovery and meaningful investigation, naturally seeking novel perspectives and innovative solutions. Your strength lies in your ability to venture into uncharted territory and find unique insights that others might miss.
+
+### Orientation Description
+As a **CI-Gardener**, you have a **Southern** profile with a tendency to **garden** (notice how the image is predominantly focused on the southern side). Southern are known as "explorers." They thrive on creative introspection and meaningful discovery, combining inner guidance with creative expression. When stuck, Southern need space for both reflection and creative experimentation.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They can get lost in exploration and creative tangents, when what they need is to ground their insights with practical structure and focused direction.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Southern archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to ground exploration with direction is by tapping into your Synthesizer archetype, which aligns with your flexible approach to making sense.
+
+### Prompts
+**Title:** Prompts to ground exploration with direction as a CI-Gardener
+**Content:** What patterns are emerging from your creative explorations? How can your Synthesizer help you make sense of your discoveries organically? Once your Synthesizer is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to manifest your insights into meaningful action.
+
+---
+
+## CP-Architect (Creative + Producer, Architect Tendency)
+[comment]: # (Secret Code: 0021)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection.
+
+### Orientation Description
+As a **CP-Architect**, you have an **Easterner** profile with a tendency to **architect** (notice how the image is predominantly focused on the eastern side). Easterners are known as "makers." They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Easterner archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from action to reflection is by tapping into your Synthesizer archetype, which aligns with your structured approach to making sense.
+
+### Prompts
+**Title:** Prompts to move from action to reflection as a CP-Architect
+**Content:** What patterns are emerging from your creative output? How can your Creative help you innovate within your structured approach? Once your Creative is activated, you will likely find it becomes easier to move into your Inner Guide archetype, allowing you to access deeper meaning in your work.
+
+---
+
+## CP-Gardener (Creative + Producer, Gardener Tendency)
+[comment]: # (Secret Code: 0022)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Producer** is your secondary. This combination creates a maker's approach to sensemaking. You thrive on creative expression and productive output, naturally translating ideas into tangible results. Your strength lies in your ability to innovate and execute, though you may sometimes need to balance your action-oriented nature with deeper reflection.
+
+### Orientation Description
+As a **CP-Gardener**, you have an **Easterner** profile with a tendency to **garden** (notice how the image is predominantly focused on the eastern side). Easterners are known as "makers." They often get stuck going from expression to reflection, from outward orientation to inward, from doing to thinking. But when Easterners feel overwhelmed, the answer is usually to do less action and more reflection.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They tend to increase their activity and output, when what they actually need is to step back, slow down, and engage in deeper reflection and analysis.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Easterner archetypes with a Gardener tendency, it's most difficult to access your Synthesizer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from action to reflection is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from action to reflection as a CP-Gardener
+**Content:** What deeper meaning is your creative work pointing toward? How can your Producer help you organize your creative insights organically? Once your Producer is activated, you will likely find it becomes easier to move into your Synthesizer archetype, allowing you to make sense of your creative expressions.
+
+---
+
+## CS-Architect (Creative + Synthesizer, Architect Tendency)
+[comment]: # (Secret Code: 0023)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences.
+
+### Orientation Description
+As a **CS-Architect**, you have a **Diagonal** profile with a tendency to **architect** (notice how the image spans diagonally across quadrants). You are known as "translators." You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities.
+
+### Tendency Description
+The **Architect** is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Translator archetypes with an Architect tendency, it's most difficult to access your Inner Guide archetype—yet that's exactly what you most need. Since your tendency is to architect, the easiest way to move from translation to depth is by tapping into your Producer archetype, which aligns with your structured approach to systematic action.
+
+### Prompts
+**Title:** Prompts to move from translation to depth as a CS-Architect
+**Content:** What is the one key insight that most needs to be communicated? How can your Producer help you structure this translation systematically? Once your Producer is activated, you will likely find it becomes easier to move into your Creative archetype, allowing you to find innovative ways to bridge complex concepts.
+
+---
+
+## CS-Gardener (Creative + Synthesizer, Gardener Tendency)
+[comment]: # (Secret Code: 0024)
+
+### Archetype Description
+The **Creative** is your dominant sensemaking archetype. The **Synthesizer** is your secondary. This combination creates a translator's approach to sensemaking. You excel at bridging different worlds of understanding, making complex or abstract concepts accessible to others. Your strength lies in your ability to synthesize diverse perspectives and communicate insights across different contexts and audiences.
+
+### Orientation Description
+As a **CS-Gardener**, you have a **Diagonal** profile with a tendency to **garden** (notice how the image spans diagonally across quadrants). You are known as "translators." You bridge creative expression with systematic synthesis, helping others understand complex ideas. Your diagonal nature gives you unique perspective-shifting abilities.
+
+### Tendency Description
+The **Gardener** is your dominant sensemaking tendency. This means you prefer flexibility and emergent approaches, allowing ideas and projects to develop organically. You thrive in ambiguous situations and are comfortable navigating uncertainty, often discovering unexpected opportunities through exploration.
+
+### Overwhelmed
+**Title:** Your key challenge as a Creative
+**Content:** They may try to bridge too many perspectives at once, when what they need is to focus on one key translation or synthesis at a time, allowing clarity to emerge before expanding.
+
+### Stuck/Unstuck
+**Title:** Getting unstuck as a Creative
+**Content:** When you combine your Translator archetypes with a Gardener tendency, it's most difficult to access your Producer archetype—yet that's exactly what you most need. Since your tendency is to garden, the easiest way to move from translation to action is by tapping into your Inner Guide archetype, which aligns with your flexible approach to meaning-making.
+
+### Prompts
+**Title:** Prompts to move from translation to action as a CS-Gardener
+**Content:** Which perspectives are asking to be bridged right now? How can your Creative help you find innovative ways to connect ideas? Once your Creative is activated, you will likely find it becomes easier to move into your Producer archetype, allowing you to manifest your translations into concrete outcomes.
+
+
+---
+
+## Implementation Notes
+
+### Current Status
+- **2 profiles** (IS-Architect, IS-Gardener) have full implementation including archetype synergy content in `profiles.json`
+- **22 profiles** have hardcoded content in `main.js` for overwhelmed, stuck/unstuck, and prompts sections
+- **11 profiles** are marked as "broken" and have their sections hidden in the current implementation
+
+### Orientation Patterns
+The content follows clear patterns based on orientation:
+
+- **Westerners** (IS, SI): Focus on moving from reflection to expression/action
+- **Easterners** (CP, PC): Focus on slowing down from action to reflection
+- **Northerners** (PS, SP): Focus on balancing structure with innovation/meaning
+- **Southern** (CI, IC): Focus on grounding exploration with structure/direction
+- **Translators** (CS, SC): Focus on managing translation complexity and depth
+- **Converters** (IP, PI): Focus on balancing between reflection and action rhythms
+
+### Tendency Patterns
+- **Architects**: Prefer systematic, structured approaches to accessing difficult archetypes
+- **Gardeners**: Prefer organic, flexible approaches to accessing difficult archetypes
+
+### Architecture Notes
+- The system uses both hardcoded content in `main.js` and JSON-based content in `profiles.json`
+- The `ProfileRenderer` class provides a modern, data-driven approach for rendering profile content
+- Profile content follows a consistent structure across all implementations
+- The current system is designed to be easily maintainable and expandable
