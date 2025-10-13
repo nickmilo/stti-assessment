@@ -774,6 +774,16 @@
             border-top: 2px solid rgba(0, 0, 0, 0.1);
         }
 
+        /* Hide <br> tags that come immediately after HR to eliminate excessive spacing */
+        .section-content hr + br {
+            display: none;
+        }
+
+        /* Also hide the second <br> if there are two consecutive breaks after HR */
+        .section-content hr + br + br {
+            display: none;
+        }
+
         /* Score Visualization Section */
         .scores-section {
             margin-bottom: var(--space-2xl);
