@@ -1714,7 +1714,7 @@
                     q58_ai_tools: demographicAnswers[58]?.value || 'Not answered'
                 };
 
-                const response = await fetch('https://formspree.io/f/meorkprg', {
+                const response = await fetch('https://formspree.io/f/mvgwrngq', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
