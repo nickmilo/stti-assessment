@@ -774,15 +774,13 @@
             border-top: 2px solid rgba(0, 0, 0, 0.1);
         }
 
-        /* Hide <br> tags that come immediately after HR to eliminate excessive spacing */
+        /* Hide first <br> after HR - the HR's margin provides sufficient spacing */
         .section-content hr + br {
             display: none;
         }
 
-        /* Also hide the second <br> if there are two consecutive breaks after HR */
-        .section-content hr + br + br {
-            display: none;
-        }
+        /* Keep second <br> visible to maintain symmetric spacing around divider */
+        /* This creates balanced spacing: 0.2rem above HR + 0.2rem below HR */
 
         /* Score Visualization Section */
         .scores-section {
