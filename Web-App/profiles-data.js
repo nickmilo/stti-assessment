@@ -14,7 +14,7 @@ window.STTI_PROFILES = {
       "content": "<strong>Inner Guide</strong> is your dominant sensemaking archetype, and <strong>Producer</strong> is your secondary. This combination creates a converter's approach to sensemaking. You excel at transforming deep insights into practical applications, bridging the gap between meaning and action. Your strength lies in your ability to take abstract understanding and convert it into concrete, productive outcomes."
     },
     "orientationDescription": {
-      "content": "As an <strong>IP-Architect</strong>, you have a <strong>Diagonal</strong> profile with a tendency to <strong>architect</strong> (notice how the image spans diagonally across quadrants). You are known as \"converters.\" You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and creation."
+      "content": "As an <strong>IP-Architect</strong>, you have a <strong>Diagonal</strong> profile (notice how the image spans diagonally across quadrants). Your type of diagonal profile is known as a \"converter.\" You excel at transforming inner insights into productive action, bridging the gap between meaning and execution. Your diagonal nature allows you to move fluidly between reflection and execution."
     },
     "tendencyDescription": {
       "content": "The <strong>Architect</strong> is your dominant sensemaking tendency. This means you gravitate towards structuring and organizing the things around you. However, it doesn't mean the things around you are organized, only that you prefer clarity and understanding over uncertainty, but sometimes even…opportunities."
