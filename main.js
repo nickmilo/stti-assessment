@@ -695,19 +695,25 @@
         function getProfileSubtitle(profileCode) {
             // Extract archetypes from profile code (e.g., "IP-Architect" -> "IP")
             const archetypes = profileCode.split('-')[0];
-            const sortedArchetypes = archetypes.split('').sort().join('');
 
-            // Map archetype combinations to subtitles
+            // Map ALL archetype combinations to subtitles (both letter orders)
+            // Based on the secret code mappings (lines 173-242)
             const subtitleMap = {
                 'IP': 'The Converter',
+                'PI': 'The Converter',
                 'IS': 'The Philosopher',
+                'SI': 'The Philosopher',
                 'IC': 'The Explorer',
+                'CI': 'The Explorer',
                 'PS': 'The Builder',
+                'SP': 'The Builder',
                 'PC': 'The Maker',
-                'CS': 'The Translator'
+                'CP': 'The Maker',
+                'CS': 'The Translator',
+                'SC': 'The Translator'
             };
 
-            return subtitleMap[sortedArchetypes] || 'The Philosopher'; // Default fallback
+            return subtitleMap[archetypes] || 'The Philosopher'; // Default fallback
         }
 
         async function submitToFormspree(profile) {
