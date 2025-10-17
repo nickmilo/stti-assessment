@@ -682,14 +682,32 @@
             const archetypeScores = [
                 ['I', scores.I], ['S', scores.S], ['P', scores.P], ['C', scores.C]
             ].sort((a, b) => b[1] - a[1]);
-            
+
             // Determine tendency
             const tendency = scores.A > scores.G ? 'Architect' : 'Gardener';
-            
+
             const dominantArchetypes = [archetypeScores[0][0], archetypeScores[1][0]];
             const code = dominantArchetypes.join('') + '-' + tendency;
-            
+
             return { code, dominantArchetypes, tendency, scores, archetypeScores };
+        }
+
+        function getProfileSubtitle(profileCode) {
+            // Extract archetypes from profile code (e.g., "IP-Architect" -> "IP")
+            const archetypes = profileCode.split('-')[0];
+            const sortedArchetypes = archetypes.split('').sort().join('');
+
+            // Map archetype combinations to subtitles
+            const subtitleMap = {
+                'IP': 'The Converter',
+                'IS': 'The Philosopher',
+                'IC': 'The Explorer',
+                'PS': 'The Builder',
+                'PC': 'The Maker',
+                'CS': 'The Translator'
+            };
+
+            return subtitleMap[sortedArchetypes] || 'The Philosopher'; // Default fallback
         }
 
         async function submitToFormspree(profile) {
@@ -771,6 +789,12 @@
 
             // Update profile code display
             document.getElementById('profileCode').textContent = profile.code;
+
+            // Update profile subtitle display
+            const profileSubtitle = document.getElementById('profileSubtitle');
+            if (profileSubtitle) {
+                profileSubtitle.textContent = getProfileSubtitle(profile.code);
+            }
 
             // Set orientation title
             const westernerTitle = document.getElementById('westernerTitle');
