@@ -1784,6 +1784,12 @@
             // Update profile code display
             document.getElementById('profileCode').textContent = profile.code;
 
+            // Update profile subtitle display
+            const profileSubtitle = document.getElementById('profileSubtitle');
+            if (profileSubtitle) {
+                profileSubtitle.textContent = getProfileSubtitle(profile.code);
+            }
+
             // Set orientation title
             const westernerTitle = document.getElementById('westernerTitle');
             westernerTitle.textContent = 'Orientation';
